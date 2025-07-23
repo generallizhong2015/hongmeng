@@ -1,0 +1,595 @@
+Ôr@Ÿªassertions¤code´customTransformCache¬dependencies¢id¤meta±moduleSideEffects¬originalCode±originalSourcemap«resolvedIds®sourcemapChainµsyntheticNamedExportsµtransformDependencies®transformFiles¨cacheAstÔrAÚEªif (!("finalizeConstruction" in ViewPU.prototype)) {
+    Reflect.set(ViewPU.prototype, "finalizeConstruction", () => { });
+}
+/*
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+import CommonConstants from '../common/constants/CommonConstants';
+import StyleConstants from '../common/constants/StyleConstants';
+import CommonUtils from '../common/utils/CommonUtils';
+import MultipleDevicesUtils from '../common/utils/MultipleDevicesUtils';
+class LoginPage extends ViewPU {
+    constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
+        super(parent, __localStorage, elmtId, extraInfo);
+        if (typeof paramsLambda === "function") {
+            this.paramsGenerator_ = paramsLambda;
+        }
+        this.__currentDeviceSize = this.createStorageProp('currentDeviceSize', CommonConstants.SM, "currentDeviceSize");
+        this.setInitiallyProvidedValue(params);
+        this.finalizeConstruction();
+    }
+    setInitiallyProvidedValue(params) {
+    }
+    updateStateVars(params) {
+    }
+    purgeVariableDependenciesOnElmtId(rmElmtId) {
+        this.__currentDeviceSize.purgeDependencyOnElmtId(rmElmtId);
+    }
+    aboutToBeDeleted() {
+        this.__currentDeviceSize.aboutToBeDeleted();
+        SubscriberManager.Get().delete(this.id__());
+        this.aboutToBeDeletedInternal();
+    }
+    get currentDeviceSize() {
+        return this.__currentDeviceSize.get();
+    }
+    set currentDeviceSize(newValue) {
+        this.__currentDeviceSize.set(newValue);
+    }
+    onPageShow() {
+        MultipleDevicesUtils.register();
+    }
+    initialRender() {
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            GridRow.create({
+                columns: {
+                    sm: StyleConstants.COLUMNS_SM,
+                    md: StyleConstants.COLUMNS_MD,
+                    lg: StyleConstants.COLUMNS_LG
+                },
+                gutter: {
+                    x: StyleConstants.GRID_GUTTER
+                }
+            });
+            GridRow.backgroundColor({ "id": 16777282, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+        }, GridRow);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            GridCol.create({
+                span: {
+                    sm: StyleConstants.SPAN_SM,
+                    md: StyleConstants.SPAN_MD,
+                    lg: StyleConstants.SPAN_LG
+                }, offset: {
+                    md: StyleConstants.OFFSET_MD,
+                    lg: StyleConstants.OFFSET_LG
+                }
+            });
+        }, GridCol);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+        }, Column);
+        {
+            this.observeComponentCreation2((elmtId, isInitialRender) => {
+                if (isInitialRender) {
+                    let componentCall = new 
+                    // Title component
+                    LoginTitle(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/LoginPage.ets", line: 57, col: 11 });
+                    ViewPU.create(componentCall);
+                    let paramsLambda = () => {
+                        return {};
+                    };
+                    componentCall.paramsGenerator_ = paramsLambda;
+                }
+                else {
+                    this.updateStateVarsOfChildByElmtId(elmtId, {});
+                }
+            }, { name: "LoginTitle" });
+        }
+        {
+            this.observeComponentCreation2((elmtId, isInitialRender) => {
+                if (isInitialRender) {
+                    let componentCall = new 
+                    // Bottom component
+                    LoginBottom(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/LoginPage.ets", line: 59, col: 11 });
+                    ViewPU.create(componentCall);
+                    let paramsLambda = () => {
+                        return {};
+                    };
+                    componentCall.paramsGenerator_ = paramsLambda;
+                }
+                else {
+                    this.updateStateVarsOfChildByElmtId(elmtId, {});
+                }
+            }, { name: "LoginBottom" });
+        }
+        Column.pop();
+        GridCol.pop();
+        GridRow.pop();
+    }
+    rerender() {
+        this.updateDirtyElements();
+    }
+    static getEntryName() {
+        return "LoginPage";
+    }
+}
+class LoginTitle extends ViewPU {
+    constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
+        super(parent, __localStorage, elmtId, extraInfo);
+        if (typeof paramsLambda === "function") {
+            this.paramsGenerator_ = paramsLambda;
+        }
+        this.setInitiallyProvidedValue(params);
+        this.finalizeConstruction();
+    }
+    setInitiallyProvidedValue(params) {
+    }
+    updateStateVars(params) {
+    }
+    purgeVariableDependenciesOnElmtId(rmElmtId) {
+    }
+    aboutToBeDeleted() {
+        SubscriberManager.Get().delete(this.id__());
+        this.aboutToBeDeletedInternal();
+    }
+    initialRender() {
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.backgroundColor({ "id": 16777282, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Column.justifyContent(FlexAlign.Center);
+            Column.width(StyleConstants.FULL_PARENT);
+            Column.height(StyleConstants.LOGIN_LOGO_HEIGHT);
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Image.create({ "id": 16777393, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Image.width({ "id": 16777332, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Image.height({ "id": 16777332, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Image.margin({ bottom: { "id": 16777333, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" } });
+        }, Image);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777233, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777302, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Text.fontWeight(FontWeight.Medium);
+            Text.fontColor({ "id": 16777295, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777232, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777350, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777292, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Text.margin({
+                top: { "id": 16777349, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" },
+                bottom: { "id": 16777348, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }
+            });
+        }, Text);
+        Text.pop();
+        Column.pop();
+    }
+    rerender() {
+        this.updateDirtyElements();
+    }
+}
+class LoginBottom extends ViewPU {
+    constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
+        super(parent, __localStorage, elmtId, extraInfo);
+        if (typeof paramsLambda === "function") {
+            this.paramsGenerator_ = paramsLambda;
+        }
+        this.__account = new ObservedPropertySimplePU('', this, "account");
+        this.__password = new ObservedPropertySimplePU('', this, "password");
+        this.setInitiallyProvidedValue(params);
+        this.finalizeConstruction();
+    }
+    setInitiallyProvidedValue(params) {
+        if (params.account !== undefined) {
+            this.account = params.account;
+        }
+        if (params.password !== undefined) {
+            this.password = params.password;
+        }
+    }
+    updateStateVars(params) {
+    }
+    purgeVariableDependenciesOnElmtId(rmElmtId) {
+        this.__account.purgeDependencyOnElmtId(rmElmtId);
+        this.__password.purgeDependencyOnElmtId(rmElmtId);
+    }
+    aboutToBeDeleted() {
+        this.__account.aboutToBeDeleted();
+        this.__password.aboutToBeDeleted();
+        SubscriberManager.Get().delete(this.id__());
+        this.aboutToBeDeletedInternal();
+    }
+    get account() {
+        return this.__account.get();
+    }
+    set account(newValue) {
+        this.__account.set(newValue);
+    }
+    get password() {
+        return this.__password.get();
+    }
+    set password(newValue) {
+        this.__password.set(newValue);
+    }
+    initialRender() {
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.padding({
+                left: { "id": 16777327, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" },
+                right: { "id": 16777328, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" },
+            });
+            Column.backgroundColor({ "id": 16777282, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Column.height(StyleConstants.LOGIN_BOTTOM_HEIGHT);
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.backgroundColor(Color.White);
+            Column.borderRadius({ "id": 16777331, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            TextInput.create({ placeholder: { "id": 16777220, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" } });
+            TextInput.maxLength(StyleConstants.INPUT_ACCOUNT_LENGTH);
+            TextInput.type(InputType.Number);
+            __TextInput__inputStyle();
+            TextInput.onChange((value) => {
+                this.account = value;
+            });
+        }, TextInput);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Line.create();
+            Line.width(StyleConstants.FULL_PARENT);
+            Line.height({ "id": 16777317, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Line.margin({
+                left: { "id": 16777318, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" },
+                right: { "id": 16777319, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }
+            });
+            Line.backgroundColor({ "id": 16777286, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+        }, Line);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            TextInput.create({ placeholder: { "id": 16777274, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" } });
+            TextInput.maxLength(StyleConstants.INPUT_PASSWORD_LENGTH);
+            TextInput.type(InputType.Password);
+            __TextInput__inputStyle();
+            TextInput.onChange((value) => {
+                this.password = value;
+            });
+        }, TextInput);
+        Column.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Row.create();
+            Row.justifyContent(FlexAlign.SpaceBetween);
+            Row.width(StyleConstants.FULL_PARENT);
+            Row.margin({ top: { "id": 16777303, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" } });
+            Row.padding({
+                left: { "id": 16777304, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" },
+                right: { "id": 16777305, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }
+            });
+        }, Row);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777242, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            __Text__blueTextStyle();
+            Text.onClick(() => {
+                CommonUtils.showToastContent({ "id": 16777230, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            });
+        }, Text);
+        Text.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777225, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            __Text__blueTextStyle();
+            Text.onClick(() => {
+                CommonUtils.showToastContent({ "id": 16777230, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            });
+        }, Text);
+        Text.pop();
+        Row.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Button.createWithLabel({ "id": 16777231, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Button.id(CommonConstants.LOGIN_BUTTON_ID);
+            Button.width(StyleConstants.FULL_PARENT);
+            Button.height({ "id": 16777326, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Button.fontSize({ "id": 16777350, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Button.fontWeight(FontWeight.Medium);
+            Button.backgroundColor({ "id": 16777287, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Button.margin({
+                top: { "id": 16777329, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" },
+                bottom: { "id": 16777325, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }
+            });
+            Button.onClick(() => {
+                CommonUtils.loginArkTS(this.account, this.password);
+            });
+        }, Button);
+        Button.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create({ "id": 16777278, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777283, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Text.fontSize({ "id": 16777350, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Text.fontWeight(FontWeight.Medium);
+            Text.onClick(() => {
+                CommonUtils.showToastContent({ "id": 16777230, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            });
+        }, Text);
+        Text.pop();
+        Column.pop();
+    }
+    rerender() {
+        this.updateDirtyElements();
+    }
+}
+function __TextInput__inputStyle() {
+    TextInput.placeholderColor({ "id": 16777293, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+    TextInput.height({ "id": 16777330, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+    TextInput.fontSize({ "id": 16777350, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+    TextInput.backgroundColor(Color.White);
+    TextInput.margin({ top: { "id": 16777315, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" } });
+    TextInput.padding({ left: StyleConstants.INPUT_PADDING_LEFT });
+}
+function __Text__blueTextStyle() {
+    Text.fontColor({ "id": 16777283, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+    Text.fontSize({ "id": 16777351, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+    Text.fontWeight(FontWeight.Medium);
+}
+registerNamedRoute(() => new LoginPage(undefined, {}), "", { bundleName: "com.huawei.logindemo", moduleName: "entry", pagePath: "pages/LoginPage", pageFullPath: "entry/src/main/ets/pages/LoginPage", integratedHsp: "false", moduleType: "followWithHap" });
+//# sourceMappingURL=LoginPage.js.mapÂ”ÙMD:\hongmengCode\Login\entry\src\main\ets\common\constants\CommonConstants.etsÙLD:\hongmengCode\Login\entry\src\main\ets\common\constants\StyleConstants.etsÙED:\hongmengCode\Login\entry\src\main\ets\common\utils\CommonUtils.etsÙND:\hongmengCode\Login\entry\src\main\ets\common\utils\MultipleDevicesUtils.etsÙ<D:\hongmengCode\Login\entry\src\main\ets\pages\LoginPage.etsÔrBšªmoduleName±isLocalDependency¯isNodeEntryFile§pkgPath±belongProjectPath§pkgNameªpkgVersion±dependencyPkgInfo°belongModulePath¬shouldEmitJs¥entryÃÂ»D:\hongmengCode\Login\entryµD:\hongmengCode\Login¥entry¥1.0.0Ô  »D:\hongmengCode\Login\entryÃÃÚ/*
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+import CommonConstants from '../common/constants/CommonConstants';
+import StyleConstants from '../common/constants/StyleConstants';
+import CommonUtils from '../common/utils/CommonUtils';
+import MultipleDevicesUtils from '../common/utils/MultipleDevicesUtils';
+
+/**
+ * The login page consists of two components.
+ * LoginTitle and LoginBottom, which can be invoked by directly referencing the control.
+ */
+@Entry
+@Component
+struct LoginPage {
+  @StorageProp('currentDeviceSize') currentDeviceSize: string = CommonConstants.SM;
+
+  onPageShow() {
+    MultipleDevicesUtils.register();
+  }
+
+  build() {
+    GridRow({
+      columns: {
+        sm: StyleConstants.COLUMNS_SM,
+        md: StyleConstants.COLUMNS_MD,
+        lg: StyleConstants.COLUMNS_LG
+      },
+      gutter: {
+        x: StyleConstants.GRID_GUTTER
+      }
+    }) {
+      GridCol({
+        span: {
+          sm: StyleConstants.SPAN_SM,
+          md: StyleConstants.SPAN_MD,
+          lg: StyleConstants.SPAN_LG
+        }, offset: {
+          md: StyleConstants.OFFSET_MD,
+          lg: StyleConstants.OFFSET_LG
+        }
+      }) {
+        Column() {
+          // Title component
+          LoginTitle()
+          // Bottom component
+          LoginBottom()
+        }
+      }
+    }
+    .backgroundColor($r('app.color.background'))
+  }
+}
+
+@Preview
+@Component
+struct LoginTitle {
+  build() {
+    Column() {
+      Image($r('app.media.icon'))
+        .width($r('app.float.logo_image_size'))
+        .height($r('app.float.logo_image_size'))
+        .margin({ bottom: $r('app.float.logo_margin_bottom') })
+      Text($r('app.string.login_page'))
+        .fontSize($r('app.float.common_text_size'))
+        .fontWeight(FontWeight.Medium)
+        .fontColor($r('app.color.title_text_color'))
+      Text($r('app.string.login_more'))
+        .fontSize($r('app.float.normal_text_size'))
+        .fontColor($r('app.color.more_text_color'))
+        .margin({
+          top: $r('app.float.more_margin_top'),
+          bottom: $r('app.float.more_margin_bottom')
+        })
+    }
+    .backgroundColor($r('app.color.background'))
+    .justifyContent(FlexAlign.Center)
+    .width(StyleConstants.FULL_PARENT)
+    .height(StyleConstants.LOGIN_LOGO_HEIGHT)
+  }
+}
+
+@Preview
+@Component
+struct LoginBottom {
+  @State account: string = '';
+  @State password: string = '';
+
+  build() {
+    Column() {
+      Column() {
+        TextInput({ placeholder: $r('app.string.account') })
+          .maxLength(StyleConstants.INPUT_ACCOUNT_LENGTH)
+          .type(InputType.Number)
+          .inputStyle()
+          .onChange((value: string) => {
+            this.account = value;
+          })
+
+        Line()
+          .width(StyleConstants.FULL_PARENT)
+          .height($r('app.float.line_height'))
+          .margin({
+            left: $r('app.float.line_margin_left'),
+            right: $r('app.float.line_margin_right')
+          })
+          .backgroundColor($r('app.color.line_color'))
+
+        TextInput({ placeholder: $r('app.string.password') })
+          .maxLength(StyleConstants.INPUT_PASSWORD_LENGTH)
+          .type(InputType.Password)
+          .inputStyle()
+          .onChange((value: string) => {
+            this.password = value;
+          })
+      }
+      .backgroundColor(Color.White)
+      .borderRadius($r('app.float.login_input_radius'))
+
+      Row() {
+        Text($r('app.string.message_login'))
+          .blueTextStyle()
+          .onClick(() => {
+            CommonUtils.showToastContent($r('app.string.incomplete_toast'));
+          })
+        Text($r('app.string.forgot_password'))
+          .blueTextStyle()
+          .onClick(() => {
+            CommonUtils.showToastContent($r('app.string.incomplete_toast'));
+          })
+      }
+      .justifyContent(FlexAlign.SpaceBetween)
+      .width(StyleConstants.FULL_PARENT)
+      .margin({ top: $r('app.float.forgot_margin_top') })
+      .padding({
+        left: $r('app.float.forgot_padding_left'),
+        right: $r('app.float.forgot_padding_right')
+      })
+
+      Button($r('app.string.login'))
+        .id(CommonConstants.LOGIN_BUTTON_ID)
+        .width(StyleConstants.FULL_PARENT)
+        .height($r('app.float.login_button_height'))
+        .fontSize($r('app.float.normal_text_size'))
+        .fontWeight(FontWeight.Medium)
+        .backgroundColor($r('app.color.login_button_color'))
+        .margin({
+          top: $r('app.float.login_button_top'),
+          bottom: $r('app.float.login_button_bottom')
+        })
+        .onClick(() => {
+          CommonUtils.loginArkTS(this.account, this.password);
+        })
+      Text($r('app.string.register_account'))
+        .fontColor($r('app.color.blue_text_color'))
+        .fontSize($r('app.float.normal_text_size'))
+        .fontWeight(FontWeight.Medium)
+        .onClick(() => {
+          CommonUtils.showToastContent($r('app.string.incomplete_toast'));
+        })
+    }
+    .padding({
+      left: $r('app.float.login_button_left'),
+      right: $r('app.float.login_button_right'),
+    })
+    .backgroundColor($r('app.color.background'))
+    .height(StyleConstants.LOGIN_BOTTOM_HEIGHT)
+  }
+}
+
+@Extend(TextInput) function inputStyle() {
+  .placeholderColor($r('app.color.placeholder_color'))
+  .height($r('app.float.login_input_height'))
+  .fontSize($r('app.float.normal_text_size'))
+  .backgroundColor(Color.White)
+  .margin({ top: $r('app.float.input_margin_top') })
+  .padding({ left: StyleConstants.INPUT_PADDING_LEFT })
+}
+
+@Extend(Text) function blueTextStyle() {
+  .fontColor($r('app.color.blue_text_color'))
+  .fontSize($r('app.float.small_text_size'))
+  .fontWeight(FontWeight.Medium)
+}ÀÔrC”Ù#../common/constants/CommonConstants»../common/utils/CommonUtilsÙ$../common/utils/MultipleDevicesUtilsÙ"../common/constants/StyleConstantsÔrD—ªassertions¨external¢id¤meta±moduleSideEffectsªresolvedByµsyntheticNamedExportsAÂÙMD:\hongmengCode\Login\entry\src\main\ets\common\constants\CommonConstants.etsAÃªoh-resolveÂDAÂÙED:\hongmengCode\Login\entry\src\main\ets\common\utils\CommonUtils.etsAÃªoh-resolveÂDAÂÙND:\hongmengCode\Login\entry\src\main\ets\common\utils\MultipleDevicesUtils.etsAÃªoh-resolveÂDAÂÙLD:\hongmengCode\Login\entry\src\main\ets\common\constants\StyleConstants.etsAÃªoh-resolveÂ“ÔrE–§version¤fileªsourceRoot§sources¥names¨mappings¬LoginPage.js ‘­LoginPage.etsÜV‘”    ‘” –”   ” ” ” ”ÌA ÌA”ÌB ÌB–”   ” ” ” ”? ?”Ì@ Ì@–”   ” ” ” ”5 5”6 6–”   ” ” ”! !”ÌG ÌG”ÌH ÌH’” ” ‘”  –”: ”ÌM "”ÌO Ì@”Ì^ ÌO”Ì_ ÌP”Ìa ÌR‘” ÌH’” $” 5’” $” 5’” ” –” ” ” ”% !”' #”( $’” ” ‘” !“” "” "” "“” #” #” #–” $” $
+” $”& $”' $”1 $%–” %” %
+” %”& %”' %”1 %%–” &” &
+” &”& &”' &”1 &%‘” '“” (” (” (–” )” )	” )”% )”& )”1 )%‘” *‘” +”” "” "” >”# >“” ,” ,” ,“” -” -” -–” .
+” .” .”& .”' .”. .$–” /
+” /” /”& /”' /”. /$–” 0
+” 0” 0”& 0”' 0”. 0$”” 1	” 1” 1” 1–” 2
+” 2” 2”& 2”' 2”0 2&–” 3
+” 3” 3”& 3”' 3”0 3&‘” 4	‘” 5’” 6” 6’” 7
+”& 7’” 8
+” 8’” 9
+”' 9’” :
+” :’” 6” 6’” ,” ,’” "” "‘” ?’” ÌD” ÌD‘” ÌB ‘” Ì@‘” ÌE’” ÌF” ÌF
+”” ÌF” ÌF
+” ÌW”" ÌW˜” ÌF” ÌF
+” ÌX”! ÌX”" ÌX”+ ÌX”, ÌX”2 ÌX$˜” ÌF” ÌF
+” ÌY” ÌY
+” ÌY”' ÌY”( ÌY”3 ÌY%˜” ÌF” ÌF
+” ÌZ” ÌZ” ÌZ”( ÌZ”) ÌZ”: ÌZ,’” ÌG” ÌG”” ÌG” ÌG” ÌH	” ÌH”” ÌG” ÌG” ÌI	” ÌI™” ÌG” ÌG” ÌJ	” ÌJ” ÌJ” ÌJ”! ÌJ”Ì ÌJ<”Ì ÌJ>’” ÌK” ÌK
+”” ÌK” ÌK
+” ÌL	” ÌL˜” ÌK” ÌK
+” ÌM	” ÌM” ÌM”& ÌM”' ÌM”- ÌM%”” ÌK” ÌK
+” ÌN	” ÌN’” ÌK” ÌK
+’” ÌO” ÌO
+”” ÌO” ÌO
+” ÌP	” ÌP”” ÌO” ÌO
+” ÌQ	” ÌQ•” ÌO” ÌO
+” ÌR	” ÌR” ÌR“” ÌS
+” ÌS”Ì ÌS.“” ÌT
+” ÌT”Ì‚ ÌT4‘” ÌU	’” ÌO” ÌO
+’” ÌF” ÌF
+‘” Ì[’” Ì`” Ì`‘” Ì^ ’”6 Ìa”8 Ìa’”7 Ìb”9 Ìb‘” Ì\’” Ìa	” Ìa’” Ìa	” Ìa’” Ìb	” Ìb’” Ìb	” Ìb‘” Ìd’” Ìe” Ìe
+•” Ìe” Ìe
+” Ì­” Ì­” Ì­“” Ì®” Ì®
+”Ì€ Ì®-“” Ì¯” Ì¯”Ì Ì¯/‘” Ì°”” Ìe” Ìe
+” Ì±”" Ì±˜” Ìe” Ìe
+” Ì²” Ì²” Ì²”( Ì²”) Ì²”< Ì².’” Ìf” Ìf˜” Ìf” Ìf” Ì€”" Ì€”# Ì€”( Ì€”) Ì€”. Ì€"”” Ìf” Ìf” Ì” Ì—” Ìg” Ìg” Ìg” Ìg”* Ìg”Ì– Ìg9”Ì˜ Ìg;˜” Ìg” Ìg” Ìh” Ìh”  Ìh”. Ìh#”/ Ìh$”ÌC Ìh8˜” Ìg” Ìg” Ìi” Ìi” Ìi”$ Ìi”% Ìi”+ Ìi ™” Ìg” Ìg” Ìk” Ìk” Ìk”  Ìk”% Ìk"”' Ìk$”) Ìk&—” Ìl” Ìl” Ìl” Ìl” Ìl”$ Ìl ”% Ìl!’” Ìm
+” Ìm’” Ìo” Ìo˜” Ìo” Ìo” Ìp” Ìp” Ìp”% Ìp”& Ìp ”1 Ìp+”” Ìo” Ìo” Ìq” Ìq•” Ìo” Ìo” Ìr” Ìr” Ìr“” Ìs” Ìs”Ì€ Ìs2“” Ìt” Ìt”Ì Ìt4‘” Ìu”” Ìo” Ìo” Ìv”  Ìv—” Ìx” Ìx” Ìx” Ìx”* Ìx”Ì– Ìx:”Ì˜ Ìx<˜” Ìx” Ìx” Ìy” Ìy”  Ìy”. Ìy#”/ Ìy$”ÌD Ìy9˜” Ìx” Ìx” Ìz” Ìz” Ìz”$ Ìz”% Ìz”- Ìz"™” Ìx” Ìx” Ì|” Ì|” Ì|”  Ì|”% Ì|"”' Ì|$”) Ì|&—” Ì}” Ì}” Ì}” Ì}”  Ì}”% Ì}!”& Ì}"’” Ì~
+” Ì~’” Ìf” Ìf’” Ìƒ” Ìƒ	˜” Ìƒ” Ìƒ	” Ì” Ì” Ì”( Ì”) Ì ”5 Ì,˜” Ìƒ” Ìƒ	” Ì” Ì” Ì”$ Ì”% Ì”0 Ì'™” Ìƒ” Ìƒ	” Ì‘” Ì‘” Ì‘” Ì‘” Ì‘”Ìˆ Ì‘6”ÌŠ Ì‘8•” Ìƒ” Ìƒ	” Ì’” Ì’” Ì’“” Ì“” Ì“”Ì€ Ì“1“” Ì”” Ì””Ì Ì”3‘” Ì•’” Ì„” Ì„—” Ì„” Ì„” Ì†” Ì†” Ì†” Ì†” Ì†–” Ì‡” Ì‡” Ì‡”, Ì‡(”Ì˜ Ì‡ÌK”Ì™ Ì‡ÌL’” Ìˆ
+” Ìˆ’” Ì„” Ì„’” Ì‰” Ì‰—” Ì‰” Ì‰” Ì‹” Ì‹” Ì‹” Ì‹” Ì‹–” ÌŒ” ÌŒ” ÌŒ”, ÌŒ(”Ì˜ ÌŒÌK”Ì™ ÌŒÌL’” Ì
+” Ì’” Ì‰” Ì‰’” Ìƒ” Ìƒ	’” Ì—” Ì—˜” Ì—” Ì—” Ì˜	” Ì˜” Ì˜”% Ì˜”& Ì˜”5 Ì˜+˜” Ì—” Ì—” Ì™	” Ì™” Ì™”' Ì™”( Ì™”3 Ì™)”” Ì—” Ì—” Ìš	” Ìš”” Ì—” Ì—” Ì›	” Ì›˜” Ì—” Ì—” Ìœ	” Ìœ” Ìœ”( Ìœ”) Ìœ”/ Ìœ%”” Ì—” Ì—” Ì	”" Ì•” Ì—” Ì—” Ì	” Ì” Ì“” ÌŸ
+” ÌŸ”Ì ÌŸ/“” Ì 
+” Ì ”Ì‚ Ì 5‘” Ì¡	—” Ì—” Ì—” Ì¢	” Ì¢” Ì¢” Ì¢”  Ì¢” Ì£
+” Ì£” Ì£”& Ì£ ”' Ì£!”+ Ì£%”, Ì£&”3 Ì£-”5 Ì£/”9 Ì£3”: Ì£4”ÌB Ì£<”ÌC Ì£=”ÌD Ì£>’” Ì¤” Ì¤	’” Ì—” Ì—’” Ì¥” Ì¥
+”” Ì¥” Ì¥
+” Ì¦	” Ì¦”” Ì¥” Ì¥
+” Ì§	” Ì§˜” Ì¥” Ì¥
+” Ì¨	” Ì¨” Ì¨”& Ì¨”' Ì¨”- Ì¨%—” Ì¥” Ì¥
+” Ì©	” Ì©” Ì©” Ì©” Ì©–” Ìª
+” Ìª” Ìª”, Ìª&”Ì˜ ÌªÌI”Ì™ ÌªÌJ’” Ì«” Ì«	’” Ì¥” Ì¥
+’” Ìe” Ìe
+‘” Ì³‘”  Ì¶ ’” Ì·” Ì·’” Ì¸” Ì¸	’” Ì¹” Ì¹–” Ìº” Ìº” Ìº”# Ìº”$ Ìº”) Ìº—” Ì»” Ì»	” Ì»
+” Ì»” Ì»”Ì† Ì»1”Ìˆ Ì»3š” Ì¼” Ì¼
+” Ì¼” Ì¼” Ì¼” Ì¼”, Ì¼!”- Ì¼"”? Ì¼4”ÌA Ì¼6‘” Ì½‘”  Ì¿ ’”	 ÌÀ” ÌÀ’”	 ÌÁ” ÌÁ–”	 ÌÂ” ÌÂ” ÌÂ” ÌÂ” ÌÂ”% ÌÂ‘” ÌÃÔrF–§version¤file§sources®sourcesContent¥names¨mappingsÀ‘À‘ÀÜX‘”    ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”  	 ‘”  
+ ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”    ‘”  ! ‘”  " ‘”  # ‘”  $ ‘”  % ‘”  & ‘”  ' ‘”  ( ‘”  ) ‘”  * ‘”  + ‘”  , ‘”  - ‘”  . ‘”  / ‘”  0 ‘”  1 ‘”  2 ‘”  3 ‘”  4 ‘”  5 ‘”  6 ‘”  7 ‘”  8 ‘”  9 ‘”  : ‘”  ; ‘”  < ‘”  = ‘”  > ‘”  ? ‘”  Ì@ ‘”  ÌA ‘”  ÌB ‘”  ÌC ‘”  ÌD ‘”  ÌE ‘”  ÌF ‘”  ÌG ‘”  ÌH ‘”  ÌI ‘”  ÌJ ‘”  ÌK ‘”  ÌL ‘”  ÌM ‘”  ÌN ‘”  ÌO ‘”  ÌP ‘”  ÌQ ‘”  ÌR ‘”  ÌS ‘”  ÌT ‘”  ÌU ‘”  ÌV ‘”  ÌW ‘”  ÌX ‘”  ÌY ‘”  ÌZ ‘”  Ì[ ‘”  Ì\ ‘”  Ì] ‘”  Ì^ ‘”  Ì_ ‘”  Ì` ‘”  Ìa ‘”  Ìb ‘”  Ìc ‘”  Ìd ‘”  Ìe ‘”  Ìf ‘”  Ìg ‘”  Ìh ‘”  Ìi ‘”  Ìj ‘”  Ìk ‘”  Ìl ‘”  Ìm ‘”  Ìn ‘”  Ìo ‘”  Ìp ‘”  Ìq ‘”  Ìr ‘”  Ìs ‘”  Ìt ‘”  Ìu ‘”  Ìv ‘”  Ìw ‘”  Ìx ‘”  Ìy ‘”  Ìz ‘”  Ì{ ‘”  Ì| ‘”  Ì} ‘”  Ì~ ‘”  Ì ‘”  Ì€ ‘”  Ì ‘”  Ì‚ ‘”  Ìƒ ‘”  Ì„ ‘”  Ì… ‘”  Ì† ‘”  Ì‡ ‘”  Ìˆ ‘”  Ì‰ ‘”  ÌŠ ‘”  Ì‹ ‘”  ÌŒ ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì‘ ‘”  Ì’ ‘”  Ì“ ‘”  Ì” ‘”  Ì• ‘”  Ì– ‘”  Ì— ‘”  Ì˜ ‘”  Ì™ ‘”  Ìš ‘”  Ì› ‘”  Ìœ ‘”  Ì ‘”  Ì ‘”  ÌŸ ‘”  Ì  ‘”  Ì¡ ‘”  Ì¢ ‘”  Ì£ ‘”  Ì¤ ‘”  Ì¥ ‘”  Ì¦ ‘”  Ì§ ‘”  Ì¨ ‘”  Ì© ‘”  Ìª ‘”  Ì« ‘”  Ì¬ ‘”  Ì­ ‘”  Ì® ‘”  Ì¯ ‘”  Ì° ‘”  Ì± ‘”  Ì² ‘”  Ì³ ‘”  Ì´ ‘”  Ìµ ‘”  Ì¶ ‘”  Ì· ‘”  Ì¸ ‘”  Ì¹ ‘”  Ìº ‘”  Ì» ‘”  Ì¼ ‘”  Ì½ ‘”  Ì¾ ‘”  Ì¿ ‘”  ÌÀ ‘”  ÌÁ ‘”  ÌÂ ‘”  ÌÃ ‘”  ÌÄ ‘”  ÌÅ ‘”  ÌÆ ‘”  ÌÇ ‘”  ÌÈ ‘”  ÌÉ ‘”  ÌÊ ‘”  ÌË ‘”  ÌÌ ‘”  ÌÍ ‘”  ÌÎ ‘”  ÌÏ ‘”  ÌĞ ‘”  ÌÑ ‘”  ÌÒ ‘”  ÌÓ ‘”  ÌÔ ‘”  ÌÕ ‘”  ÌÖ ‘”  Ì× ‘”  ÌØ ‘”  ÌÙ ‘”  ÌÚ ‘”  ÌÛ ‘”  ÌÜ ‘”  Ìİ ‘”  ÌŞ ‘”  Ìß ‘”  Ìà ‘”  Ìá ‘”  Ìâ ‘”  Ìã ‘”  Ìä ‘”  Ìå ‘”  Ìæ ‘”  Ìç ‘”  Ìè ‘”  Ìé ‘”  Ìê ‘”  Ìë ‘”  Ìì ‘”  Ìí ‘”  Ìî ‘”  Ìï ‘”  Ìğ ‘”  Ìñ ‘”  Ìò ‘”  Ìó ‘”  Ìô ‘”  Ìõ ‘”  Ìö ‘”  Ì÷ ‘”  Ìø ‘”  Ìù ‘”  Ìú ‘”  Ìû ‘”  Ìü ‘”  Ìı ‘”  Ìş ‘”  Ìÿ ‘”  Í  ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í	 ‘”  Í
+ ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í ‘”  Í  ‘”  Í! ‘”  Í" ‘”  Í# ‘”  Í$ ‘”  Í% ‘”  Í& ‘”  Í' ‘”  Í( ‘”  Í) ‘”  Í* ‘”  Í+ ‘”  Í, ‘”  Í- ‘”  Í. ‘”  Í/ ‘”  Í0 ‘”  Í1 ‘”  Í2 ‘”  Í3 ‘”  Í4 ‘”  Í5 ‘”  Í6 ‘”  Í7 ‘”  Í8 ‘”  Í9 ‘”  Í: ‘”  Í; ‘”  Í< ‘”  Í= ‘”  Í> ‘”  Í? ‘”  Í@ ‘”  ÍA ‘”  ÍB ‘”  ÍC ‘”  ÍD ‘”  ÍE ‘”  ÍF ‘”  ÍG ‘”  ÍH ‘”  ÍI ‘”  ÍJ ‘”  ÍK ‘”  ÍL ‘”  ÍM ‘”  ÍN ‘”  ÍO ‘”  ÍP ‘”  ÍQ ‘”  ÍR ‘”  ÍS ‘”  ÍT ‘”  ÍU ‘”  ÍV ‘”  ÍW ÔrG’§missing¦pluginÃ¦genAbcÂÔ  ÔrH”²dynamicImportCache¹exportAllDeclarationCache»exportNamedDeclarationCache«importCache”ÔrI•¤type¥start£endªspecifiers¦source±ImportDeclarationÍîÍ0‘ÔrJ”¤type¥start£end¥local¶ImportDefaultSpecifierÍõÍÔrK”¤type¥start£end¤nameªIdentifierÍõÍ¯CommonConstantsÔrL•¤type¥start£end¥value£raw§LiteralÍ
+Í/Ù#../common/constants/CommonConstantsÙ%'../common/constants/CommonConstants'I±ImportDeclarationÍ2Ír‘J¶ImportDefaultSpecifierÍ9ÍGKªIdentifierÍ9ÍG®StyleConstantsL§LiteralÍMÍqÙ"../common/constants/StyleConstantsÙ$'../common/constants/StyleConstants'I±ImportDeclarationÍtÍª‘J¶ImportDefaultSpecifierÍ{Í†KªIdentifierÍ{Í†«CommonUtilsL§LiteralÍŒÍ©»../common/utils/CommonUtils½'../common/utils/CommonUtils'I±ImportDeclarationÍ¬Íô‘J¶ImportDefaultSpecifierÍ³ÍÇKªIdentifierÍ³ÍÇ´MultipleDevicesUtilsL§LiteralÍÍÍóÙ$../common/utils/MultipleDevicesUtilsÙ&'../common/utils/MultipleDevicesUtils'

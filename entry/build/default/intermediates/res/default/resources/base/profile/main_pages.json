@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/LoginPage",
+    "pages/MainPage",
+    "pages/Welcome",
+    "pages/NewMian",
+    "pages/AddPage"
+
+
+  ]
+}

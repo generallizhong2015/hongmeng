@@ -1,0 +1,18 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is Clang 15.0.4
+-- The CXX compiler identification is Clang 15.0.4
+-- Check for working C compiler: /Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/native/llvm/bin/clang
+-- Check for working C compiler: /Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/native/llvm/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/native/llvm/bin/clang++
+-- Check for working CXX compiler: /Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/native/llvm/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/wangyunchuan/Harmony/Login/entry/.cxx/default/default/x86_64

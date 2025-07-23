@@ -1,0 +1,223 @@
+Ôr@Ÿªassertions¤code´customTransformCache¬dependencies¢id¤meta±moduleSideEffects¬originalCode±originalSourcemap«resolvedIds®sourcemapChainµsyntheticNamedExportsµtransformDependencies®transformFiles¨cacheAstÔrAÚ xif (!("finalizeConstruction" in ViewPU.prototype)) {
+    Reflect.set(ViewPU.prototype, "finalizeConstruction", () => { });
+}
+import CommonConstants from '../common/constants/CommonConstants';
+import StyleConstants from '../common/constants/StyleConstants';
+import OnePageView from '../view/OnepageView';
+import TwoPageView from '../view/TwoPageView';
+class NewMain extends ViewPU {
+    constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
+        super(parent, __localStorage, elmtId, extraInfo);
+        if (typeof paramsLambda === "function") {
+            this.paramsGenerator_ = paramsLambda;
+        }
+        this.__currentIndex = new ObservedPropertySimplePU(CommonConstants.HOME_TAB_INDEX, this, "currentIndex");
+        this.setInitiallyProvidedValue(params);
+        this.finalizeConstruction();
+    }
+    setInitiallyProvidedValue(params) {
+        if (params.currentIndex !== undefined) {
+            this.currentIndex = params.currentIndex;
+        }
+    }
+    updateStateVars(params) {
+    }
+    purgeVariableDependenciesOnElmtId(rmElmtId) {
+        this.__currentIndex.purgeDependencyOnElmtId(rmElmtId);
+    }
+    aboutToBeDeleted() {
+        this.__currentIndex.aboutToBeDeleted();
+        SubscriberManager.Get().delete(this.id__());
+        this.aboutToBeDeletedInternal();
+    }
+    get currentIndex() {
+        return this.__currentIndex.get();
+    }
+    set currentIndex(newValue) {
+        this.__currentIndex.set(newValue);
+    }
+    initialRender() {
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Tabs.create({ barPosition: BarPosition.End, index: this.currentIndex });
+            Tabs.onChange((index) => {
+                this.currentIndex = index;
+            });
+            Tabs.barMode(BarMode.Fixed);
+            Tabs.scrollable(false);
+        }, Tabs);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            TabContent.create(() => {
+                {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        if (isInitialRender) {
+                            let componentCall = new OnePageView(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/NewMian.ets", line: 15, col: 9 });
+                            ViewPU.create(componentCall);
+                            let paramsLambda = () => {
+                                return {};
+                            };
+                            componentCall.paramsGenerator_ = paramsLambda;
+                        }
+                        else {
+                            this.updateStateVarsOfChildByElmtId(elmtId, {});
+                        }
+                    }, { name: "OnePageView" });
+                }
+            });
+            TabContent.tabBar({ builder: () => {
+                    this.TabBuilder.call(this, { "id": 16777229, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }, CommonConstants.HOME_TAB_INDEX, { "id": 16777372, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }, { "id": 16777371, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+                } });
+        }, TabContent);
+        TabContent.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            TabContent.create(() => {
+                {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        if (isInitialRender) {
+                            let componentCall = new TwoPageView(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/NewMian.ets", line: 21, col: 9 });
+                            ViewPU.create(componentCall);
+                            let paramsLambda = () => {
+                                return {};
+                            };
+                            componentCall.paramsGenerator_ = paramsLambda;
+                        }
+                        else {
+                            this.updateStateVarsOfChildByElmtId(elmtId, {});
+                        }
+                    }, { name: "TwoPageView" });
+                }
+            });
+            TabContent.tabBar({ builder: () => {
+                    this.TabBuilder.call(this, { "id": 16777251, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }, CommonConstants.MINE_TAB_INDEX, { "id": 16777379, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }, { "id": 16777378, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+                } });
+        }, TabContent);
+        TabContent.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            TabContent.create(() => {
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Stack.create();
+                }, Stack);
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Text.create('è¿™æ˜¯ç¬¬ä¸‰ä¸ªé¡µé¢');
+                    Text.fontColor('app.color.main_page_selected');
+                    Text.fontSize(20);
+                }, Text);
+                Text.pop();
+                this.observeComponentCreation2((elmtId, isInitialRender) => {
+                    Image.create({ "id": 16777379, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+                    Image.width('20%');
+                    Image.height('20%');
+                }, Image);
+                Stack.pop();
+            });
+            TabContent.tabBar({ builder: () => {
+                    this.TabBuilder.call(this, { "id": 16777251, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }, CommonConstants.MINE_TAB_INDEX, { "id": 16777379, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }, { "id": 16777378, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+                } });
+        }, TabContent);
+        TabContent.pop();
+        Tabs.pop();
+    }
+    TabBuilder(title, index, selectedImg, normalImg, parent = null) {
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.justifyContent(FlexAlign.Center);
+            Column.height(StyleConstants.FULL_PARENT);
+            Column.width(StyleConstants.FULL_PARENT);
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Image.create(this.currentIndex === index ? selectedImg : normalImg);
+            Image.width({ "id": 16777298, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Image.height({ "id": 16777298, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+        }, Image);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create(title);
+            Text.margin({ top: { "id": 16777299, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" } });
+            Text.fontSize({ "id": 16777353, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Text.fontColor(this.currentIndex === index ? { "id": 16777290, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" } : { "id": 16777289, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+        }, Text);
+        Text.pop();
+        Column.pop();
+    }
+    rerender() {
+        this.updateDirtyElements();
+    }
+    static getEntryName() {
+        return "NewMain";
+    }
+}
+registerNamedRoute(() => new NewMain(undefined, {}), "", { bundleName: "com.huawei.logindemo", moduleName: "entry", pagePath: "pages/NewMian", pageFullPath: "entry/src/main/ets/pages/NewMian", integratedHsp: "false", moduleType: "followWithHap" });
+//# sourceMappingURL=NewMian.js.mapÂ”ÙMD:\hongmengCode\Login\entry\src\main\ets\common\constants\CommonConstants.etsÙLD:\hongmengCode\Login\entry\src\main\ets\common\constants\StyleConstants.etsÙ=D:\hongmengCode\Login\entry\src\main\ets\view\OnepageView.etsÙ=D:\hongmengCode\Login\entry\src\main\ets\view\TwoPageView.etsÙ:D:\hongmengCode\Login\entry\src\main\ets\pages\NewMian.etsÔrBšªmoduleName±isLocalDependency¯isNodeEntryFile§pkgPath±belongProjectPath§pkgNameªpkgVersion±dependencyPkgInfo°belongModulePath¬shouldEmitJs¥entryÃÂ»D:\hongmengCode\Login\entryµD:\hongmengCode\Login¥entry¥1.0.0Ô  »D:\hongmengCode\Login\entryÃÃÚ$import CommonConstants from '../common/constants/CommonConstants';
+import StyleConstants from '../common/constants/StyleConstants';
+import OnePageView from '../view/OnepageView';
+import TwoPageView from '../view/TwoPageView';
+
+@Component
+@Entry
+@Preview
+struct NewMain {
+  @State currentIndex: number = CommonConstants.HOME_TAB_INDEX;
+
+  build() {
+    Tabs({ barPosition: BarPosition.End, index: this.currentIndex }) {
+      TabContent() {
+        OnePageView()
+      }
+      .tabBar(this.TabBuilder($r('app.string.home_title'), CommonConstants.HOME_TAB_INDEX,
+        $r('app.media.ic_home_selected'), $r('app.media.ic_home_normal')))
+
+      TabContent() {
+        TwoPageView()
+      }
+      .tabBar(this.TabBuilder($r('app.string.mine_title'), CommonConstants.MINE_TAB_INDEX,
+        $r('app.media.ic_mine_selected'), $r('app.media.ic_mine_normal')))
+
+      TabContent() {
+        Stack() {
+          Text('è¿™æ˜¯ç¬¬ä¸‰ä¸ªé¡µé¢').fontColor('app.color.main_page_selected').fontSize(20)
+          Image($r('app.media.ic_mine_selected')).width('20%').height('20%')
+        }
+      }
+      .tabBar(this.TabBuilder($r('app.string.mine_title'), CommonConstants.MINE_TAB_INDEX,
+        $r('app.media.ic_mine_selected'), $r('app.media.ic_mine_normal')))
+    }.onChange((index: number) => {
+      this.currentIndex = index;
+    })
+    .barMode(BarMode.Fixed)
+    .scrollable(false)
+  }
+
+  @Builder
+  TabBuilder(title: Resource, index: number, selectedImg: Resource, normalImg: Resource) {
+    Column() {
+      Image(this.currentIndex === index ? selectedImg : normalImg)
+        .width($r('app.float.base_tab_size'))
+        .height($r('app.float.base_tab_size'))
+      Text(title)
+        .margin({ top: $r('app.float.base_tab_top') })
+        .fontSize($r("app.float.tab_font_size"))
+        .fontColor(this.currentIndex === index ? $r('app.color.main_page_selected') : $r('app.color.main_page_normal'))
+    }
+    .justifyContent(FlexAlign.Center)
+    .height(StyleConstants.FULL_PARENT)
+    .width(StyleConstants.FULL_PARENT)
+  }
+}ÀÔrC”Ù#../common/constants/CommonConstantsÙ"../common/constants/StyleConstants³../view/TwoPageView³../view/OnepageViewÔrD—ªassertions¨external¢id¤meta±moduleSideEffectsªresolvedByµsyntheticNamedExportsAÂÙMD:\hongmengCode\Login\entry\src\main\ets\common\constants\CommonConstants.etsAÃªoh-resolveÂDAÂÙLD:\hongmengCode\Login\entry\src\main\ets\common\constants\StyleConstants.etsAÃªoh-resolveÂDAÂÙ=D:\hongmengCode\Login\entry\src\main\ets\view\TwoPageView.etsAÃªoh-resolveÂDAÂÙ=D:\hongmengCode\Login\entry\src\main\ets\view\OnepageView.etsAÃªoh-resolveÂ“ÔrE–§version¤fileªsourceRoot§sources¥names¨mappingsªNewMian.js ‘«NewMian.etsÜ ‹–”    ”  ”  ”  ”ÌA  ÌA”ÌB  ÌB–”   ” ” ” ”? ?”Ì@ Ì@–”   ” ” ” ”- -”. .–”   ” ” ” ”- -”. .’” ” ‘”  ””; 	 ”ÌJ 	/”ÌK 	0”ÌY 	>‘” .’” 		” 	’” 		” 	‘” Ü ” ” ” 	” ”% ”' ”2 #”3 $”6 '”8 )”= .”? 0”ÌC 4”ÌD 5”ÌP ÌA”ÌR ÌC™” ” ” !” !” !” !”  !”" !”$ !!—” "” "
+” "”! "”$ "”) "”* " ’” #” #˜” ” ” $” $” $”  $”! $”& $–” ” ” %” %” %”! %’”4 ”? ’” ” ˜” ” ” ”# ”Ì› ;”Ìª ÌJ”Ì« ÌK”Ì¹ ÌY’”4 ”? ’” ” ˜” ” ” ”# ”Ì› ;”Ìª ÌJ”Ì« ÌK”Ì¹ ÌY’” ” ”” 
+” ”  ”) –” 
+” ” ”" #”# $”ÌA ÌB–” 
+” ” ÌD”! ÌL”" ÌM”$ ÌO’” 
+” ’” 
+” –” 
+” ” 2” 7”  8”% =–” 
+” ” ?”  ÌE”! ÌF”& ÌK’” ” ’” ” ˜” ” ” ”# ”Ì› ;”Ìª ÌJ”Ì« ÌK”Ì¹ ÌY’” ” ‘” &š” )” )” )” )” )” )+” )-”( )ÌB”* )ÌD”3 )ÌW’” *” *
+˜” *” *
+” 3”! 3”" 3”+ 3”, 3”2 3$˜” *” *
+” 4” 4” 4”( 4”) 4”4 4&˜” *” *
+” 5” 5
+” 5”' 5”( 5”3 5%Ü ” +” +” +” +” +”* +”/ +"”4 +'”5 +(”6 +)”7 +*”ÌB +5”ÌC +6”ÌD +7”ÌE +8”ÌN +ÌA”” +” +” ,	” ,”” +” +” -	” -”” .” .
+” .” .™” .” .
+” /	” /” /” /” /”Ì‰ /3”Ì‹ /5”” .” .
+” 0	” 0Ÿ” .” .
+” 1	” 1” 1” 1”  1”, 1$”1 1)”6 1.”7 1/”8 10”Ì¤ 1ÌT”Ì¥ 1ÌU”Í 1Ìv’” .” .
+’” *” *
+‘” 6ÔrF–§version¤file§sources®sourcesContent¥names¨mappingsÀ‘À‘ÀÜ ”‘”    ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”  	 ‘”  
+ ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”    ‘”  ! ‘”  " ‘”  # ‘”  $ ‘”  % ‘”  & ‘”  ' ‘”  ( ‘”  ) ‘”  * ‘”  + ‘”  , ‘”  - ‘”  . ‘”  / ‘”  0 ‘”  1 ‘”  2 ‘”  3 ‘”  4 ‘”  5 ‘”  6 ‘”  7 ‘”  8 ‘”  9 ‘”  : ‘”  ; ‘”  < ‘”  = ‘”  > ‘”  ? ‘”  Ì@ ‘”  ÌA ‘”  ÌB ‘”  ÌC ‘”  ÌD ‘”  ÌE ‘”  ÌF ‘”  ÌG ‘”  ÌH ‘”  ÌI ‘”  ÌJ ‘”  ÌK ‘”  ÌL ‘”  ÌM ‘”  ÌN ‘”  ÌO ‘”  ÌP ‘”  ÌQ ‘”  ÌR ‘”  ÌS ‘”  ÌT ‘”  ÌU ‘”  ÌV ‘”  ÌW ‘”  ÌX ‘”  ÌY ‘”  ÌZ ‘”  Ì[ ‘”  Ì\ ‘”  Ì] ‘”  Ì^ ‘”  Ì_ ‘”  Ì` ‘”  Ìa ‘”  Ìb ‘”  Ìc ‘”  Ìd ‘”  Ìe ‘”  Ìf ‘”  Ìg ‘”  Ìh ‘”  Ìi ‘”  Ìj ‘”  Ìk ‘”  Ìl ‘”  Ìm ‘”  Ìn ‘”  Ìo ‘”  Ìp ‘”  Ìq ‘”  Ìr ‘”  Ìs ‘”  Ìt ‘”  Ìu ‘”  Ìv ‘”  Ìw ‘”  Ìx ‘”  Ìy ‘”  Ìz ‘”  Ì{ ‘”  Ì| ‘”  Ì} ‘”  Ì~ ‘”  Ì ‘”  Ì€ ‘”  Ì ‘”  Ì‚ ‘”  Ìƒ ‘”  Ì„ ‘”  Ì… ‘”  Ì† ‘”  Ì‡ ‘”  Ìˆ ‘”  Ì‰ ‘”  ÌŠ ‘”  Ì‹ ‘”  ÌŒ ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì‘ ‘”  Ì’ ‘”  Ì“ ÔrG’§missing¦pluginÃ¦genAbcÂÔ  ÔrH”²dynamicImportCache¹exportAllDeclarationCache»exportNamedDeclarationCache«importCache”ÔrI•¤type¥start£endªspecifiers¦source±ImportDeclarationÌ€ÌÂ‘ÔrJ”¤type¥start£end¥local¶ImportDefaultSpecifierÌ‡Ì–ÔrK”¤type¥start£end¤nameªIdentifierÌ‡Ì–¯CommonConstantsÔrL•¤type¥start£end¥value£raw§LiteralÌœÌÁÙ#../common/constants/CommonConstantsÙ%'../common/constants/CommonConstants'I±ImportDeclarationÌÄÍ‘J¶ImportDefaultSpecifierÌËÌÙKªIdentifierÌËÌÙ®StyleConstantsL§LiteralÌßÍÙ"../common/constants/StyleConstantsÙ$'../common/constants/StyleConstants'I±ImportDeclarationÍÍ4‘J¶ImportDefaultSpecifierÍÍKªIdentifierÍÍ«OnePageViewL§LiteralÍÍ3³../view/OnepageViewµ'../view/OnepageView'I±ImportDeclarationÍ6Íd‘J¶ImportDefaultSpecifierÍ=ÍHKªIdentifierÍ=ÍH«TwoPageViewL§LiteralÍNÍc³../view/TwoPageViewµ'../view/TwoPageView'

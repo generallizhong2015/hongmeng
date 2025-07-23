@@ -1,0 +1,19 @@
+{
+  "license": "",
+  "devDependencies": {
+  },
+  "author": "",
+  "name": "entry",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "version": "1.0.0",
+  "dependencies": {
+    "libentry.so": "file:./src/main/cpp/types/libentry"
+  },
+  "nativeLibrary": {
+    "libs": [
+      "./src/main/libs/arm64-v8a/libnative.so"
+    ]
+  }
+}
+

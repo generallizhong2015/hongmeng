@@ -1,0 +1,8 @@
+# ninja log v6
+9	768	7732310043888166	CMakeFiles/entry.dir/hello.cpp.o	1d6cf9fb3a90ab64
+9	25	7739202628433598	clean	742aed982e631a06
+769	901	7732310051493291	D:/hongmengCode/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	3dad0343aafd6488
+4	150	7739202746765417	build.ninja	b8506b5fa7c0b44c
+22	797	7732155489013592	CMakeFiles/example.dir/example_interface.cpp.o	ffaf80dc1f88b44b
+8	695	7739202748186702	CMakeFiles/entry.dir/hello.cpp.o	1d6cf9fb3a90ab64
+695	829	7739202755049583	D:/hongmengCode/Login/entry/build/default/intermediates/cmake/default/obj/arm64-v8a/libentry.so	3dad0343aafd6488

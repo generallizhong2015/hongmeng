@@ -1,0 +1,261 @@
+Ôr@Ÿªassertions¤code´customTransformCache¬dependencies¢id¤meta±moduleSideEffects¬originalCode±originalSourcemap«resolvedIds®sourcemapChainµsyntheticNamedExportsµtransformDependencies®transformFiles¨cacheAstÔrAÚ"4if (!("finalizeConstruction" in ViewPU.prototype)) {
+    Reflect.set(ViewPU.prototype, "finalizeConstruction", () => { });
+}
+/*
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+import CommonConstants from '../common/constants/CommonConstants';
+import StyleConstants from '../common/constants/StyleConstants';
+import HomePage from '../view/HomePageView';
+import MinePage from '../view/MinePageView';
+import Logger from '../common/utils/Logger';
+import MultipleDevicesUtils from '../common/utils/MultipleDevicesUtils';
+class MainPage extends ViewPU {
+    constructor(parent, params, __localStorage, elmtId = -1, paramsLambda = undefined, extraInfo) {
+        super(parent, __localStorage, elmtId, extraInfo);
+        if (typeof paramsLambda === "function") {
+            this.paramsGenerator_ = paramsLambda;
+        }
+        this.__currentDeviceSize = this.createStorageProp('currentDeviceSize', CommonConstants.SM, "currentDeviceSize");
+        this.__currentIndex = new ObservedPropertySimplePU(CommonConstants.HOME_TAB_INDEX, this, "currentIndex");
+        this.setInitiallyProvidedValue(params);
+        this.finalizeConstruction();
+    }
+    setInitiallyProvidedValue(params) {
+        if (params.currentIndex !== undefined) {
+            this.currentIndex = params.currentIndex;
+        }
+    }
+    updateStateVars(params) {
+    }
+    purgeVariableDependenciesOnElmtId(rmElmtId) {
+        this.__currentDeviceSize.purgeDependencyOnElmtId(rmElmtId);
+        this.__currentIndex.purgeDependencyOnElmtId(rmElmtId);
+    }
+    aboutToBeDeleted() {
+        this.__currentDeviceSize.aboutToBeDeleted();
+        this.__currentIndex.aboutToBeDeleted();
+        SubscriberManager.Get().delete(this.id__());
+        this.aboutToBeDeletedInternal();
+    }
+    get currentDeviceSize() {
+        return this.__currentDeviceSize.get();
+    }
+    set currentDeviceSize(newValue) {
+        this.__currentDeviceSize.set(newValue);
+    }
+    get currentIndex() {
+        return this.__currentIndex.get();
+    }
+    set currentIndex(newValue) {
+        this.__currentIndex.set(newValue);
+    }
+    aboutToDisappear() {
+        MultipleDevicesUtils.unregister();
+    }
+    initialRender() {
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Tabs.create({
+                barPosition: this.currentDeviceSize === CommonConstants.LG ?
+                    BarPosition.Start : BarPosition.End,
+                index: this.currentIndex
+            });
+            Tabs.barWidth(this.currentDeviceSize === CommonConstants.LG ?
+                StyleConstants.BAR_WIDTH_LG : StyleConstants.FULL_PARENT);
+            Tabs.barHeight(this.currentDeviceSize === CommonConstants.LG ?
+                StyleConstants.BAR_HEIGHT_LG : StyleConstants.BAR_DEFAULT_HEIGHT);
+            Tabs.vertical(this.currentDeviceSize === CommonConstants.LG);
+            Tabs.backgroundColor(Color.White);
+            Tabs.barMode(BarMode.Fixed);
+            Tabs.scrollable(false);
+            Tabs.onChange((index) => {
+                this.currentIndex = index;
+                Logger.info(CommonConstants.TAG_MAIN_PAGE, 'onChange index ' + JSON.stringify(index));
+            });
+        }, Tabs);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            TabContent.create(() => {
+                {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        if (isInitialRender) {
+                            let componentCall = new HomePage(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/MainPage.ets", line: 45, col: 9 });
+                            ViewPU.create(componentCall);
+                            let paramsLambda = () => {
+                                return {};
+                            };
+                            componentCall.paramsGenerator_ = paramsLambda;
+                        }
+                        else {
+                            this.updateStateVarsOfChildByElmtId(elmtId, {});
+                        }
+                    }, { name: "HomePage" });
+                }
+            });
+            TabContent.tabBar({ builder: () => {
+                    this.TabBuilder.call(this, { "id": 16777229, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }, CommonConstants.HOME_TAB_INDEX, { "id": 16777372, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }, { "id": 16777371, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+                } });
+        }, TabContent);
+        TabContent.pop();
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            TabContent.create(() => {
+                {
+                    this.observeComponentCreation2((elmtId, isInitialRender) => {
+                        if (isInitialRender) {
+                            let componentCall = new MinePage(this, {}, undefined, elmtId, () => { }, { page: "entry/src/main/ets/pages/MainPage.ets", line: 51, col: 9 });
+                            ViewPU.create(componentCall);
+                            let paramsLambda = () => {
+                                return {};
+                            };
+                            componentCall.paramsGenerator_ = paramsLambda;
+                        }
+                        else {
+                            this.updateStateVarsOfChildByElmtId(elmtId, {});
+                        }
+                    }, { name: "MinePage" });
+                }
+            });
+            TabContent.tabBar({ builder: () => {
+                    this.TabBuilder.call(this, { "id": 16777251, "type": 10003, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }, CommonConstants.MINE_TAB_INDEX, { "id": 16777379, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" }, { "id": 16777378, "type": 20000, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+                } });
+        }, TabContent);
+        TabContent.pop();
+        Tabs.pop();
+    }
+    TabBuilder(title, index, selectedImg, normalImg, parent = null) {
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Column.create();
+            Column.justifyContent(FlexAlign.Center);
+            Column.height(StyleConstants.FULL_PARENT);
+            Column.width(StyleConstants.FULL_PARENT);
+        }, Column);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Image.create(this.currentIndex === index ? selectedImg : normalImg);
+            Image.width({ "id": 16777298, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Image.height({ "id": 16777298, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+        }, Image);
+        this.observeComponentCreation2((elmtId, isInitialRender) => {
+            Text.create(title);
+            Text.margin({ top: { "id": 16777299, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" } });
+            Text.fontSize({ "id": 16777353, "type": 10002, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+            Text.fontColor(this.currentIndex === index ? { "id": 16777290, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" } : { "id": 16777289, "type": 10001, params: [], "bundleName": "com.huawei.logindemo", "moduleName": "entry" });
+        }, Text);
+        Text.pop();
+        Column.pop();
+    }
+    rerender() {
+        this.updateDirtyElements();
+    }
+    static getEntryName() {
+        return "MainPage";
+    }
+}
+registerNamedRoute(() => new MainPage(undefined, {}), "", { bundleName: "com.huawei.logindemo", moduleName: "entry", pagePath: "pages/MainPage", pageFullPath: "entry/src/main/ets/pages/MainPage", integratedHsp: "false", moduleType: "followWithHap" });
+//# sourceMappingURL=MainPage.js.mapÂ–ÙMD:\hongmengCode\Login\entry\src\main\ets\common\constants\CommonConstants.etsÙLD:\hongmengCode\Login\entry\src\main\ets\common\constants\StyleConstants.etsÙ>D:\hongmengCode\Login\entry\src\main\ets\view\HomePageView.etsÙ>D:\hongmengCode\Login\entry\src\main\ets\view\MinePageView.etsÙ@D:\hongmengCode\Login\entry\src\main\ets\common\utils\Logger.etsÙND:\hongmengCode\Login\entry\src\main\ets\common\utils\MultipleDevicesUtils.etsÙ;D:\hongmengCode\Login\entry\src\main\ets\pages\MainPage.etsÔrBšªmoduleName±isLocalDependency¯isNodeEntryFile§pkgPath±belongProjectPath§pkgNameªpkgVersion±dependencyPkgInfo°belongModulePath¬shouldEmitJs¥entryÃÂ»D:\hongmengCode\Login\entryµD:\hongmengCode\Login¥entry¥1.0.0Ô  »D:\hongmengCode\Login\entryÃÃÚi/*
+ * Copyright (c) 2023 Huawei Device Co., Ltd.
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+import CommonConstants from '../common/constants/CommonConstants';
+import StyleConstants from '../common/constants/StyleConstants';
+import HomePage from '../view/HomePageView';
+import MinePage from '../view/MinePageView';
+import Logger from '../common/utils/Logger';
+import MultipleDevicesUtils from '../common/utils/MultipleDevicesUtils';
+
+/**
+ *
+ * The home page and My Page are displayed on the home page.
+ * Usage: Developers define pages and reference them in TabContent.
+ */
+@Entry
+@Component
+struct MainPage {
+  @StorageProp('currentDeviceSize') currentDeviceSize: string = CommonConstants.SM;
+  @State currentIndex: number = CommonConstants.HOME_TAB_INDEX;
+
+  aboutToDisappear() {
+    MultipleDevicesUtils.unregister();
+  }
+
+  build() {
+    Tabs({
+      barPosition: this.currentDeviceSize === CommonConstants.LG ?
+        BarPosition.Start : BarPosition.End,
+      index: this.currentIndex
+    }) {
+      TabContent() {
+        HomePage()
+      }
+      .tabBar(this.TabBuilder($r('app.string.home_title'), CommonConstants.HOME_TAB_INDEX,
+        $r('app.media.ic_home_selected'), $r('app.media.ic_home_normal')))
+
+      TabContent() {
+        MinePage()
+      }
+      .tabBar(this.TabBuilder($r('app.string.mine_title'), CommonConstants.MINE_TAB_INDEX,
+        $r('app.media.ic_mine_selected'), $r('app.media.ic_mine_normal')))
+    }
+    .barWidth(this.currentDeviceSize === CommonConstants.LG ?
+      StyleConstants.BAR_WIDTH_LG : StyleConstants.FULL_PARENT)
+    .barHeight(this.currentDeviceSize === CommonConstants.LG ?
+      StyleConstants.BAR_HEIGHT_LG : StyleConstants.BAR_DEFAULT_HEIGHT)
+    .vertical(this.currentDeviceSize === CommonConstants.LG)
+    .backgroundColor(Color.White)
+    .barMode(BarMode.Fixed)
+    .scrollable(false)
+    .onChange((index: number) => {
+      this.currentIndex = index;
+      Logger.info(CommonConstants.TAG_MAIN_PAGE, 'onChange index ' + JSON.stringify(index));
+    })
+  }
+
+  @Builder TabBuilder(title: Resource, index: number, selectedImg: Resource, normalImg: Resource) {
+    Column() {
+      Image(this.currentIndex === index ? selectedImg : normalImg)
+        .width($r('app.float.base_tab_size'))
+        .height($r('app.float.base_tab_size'))
+      Text(title)
+        .margin({ top: $r('app.float.base_tab_top') })
+        .fontSize($r("app.float.tab_font_size"))
+        .fontColor(this.currentIndex === index ? $r('app.color.main_page_selected') : $r('app.color.main_page_normal'))
+    }
+    .justifyContent(FlexAlign.Center)
+    .height(StyleConstants.FULL_PARENT)
+    .width(StyleConstants.FULL_PARENT)
+  }
+}ÀÔrC–Ù#../common/constants/CommonConstantsÙ"../common/constants/StyleConstants¶../common/utils/LoggerÙ$../common/utils/MultipleDevicesUtils´../view/MinePageView´../view/HomePageViewÔrD—ªassertions¨external¢id¤meta±moduleSideEffectsªresolvedByµsyntheticNamedExportsAÂÙMD:\hongmengCode\Login\entry\src\main\ets\common\constants\CommonConstants.etsAÃªoh-resolveÂDAÂÙLD:\hongmengCode\Login\entry\src\main\ets\common\constants\StyleConstants.etsAÃªoh-resolveÂDAÂÙ@D:\hongmengCode\Login\entry\src\main\ets\common\utils\Logger.etsAÃªoh-resolveÂDAÂÙND:\hongmengCode\Login\entry\src\main\ets\common\utils\MultipleDevicesUtils.etsAÃªoh-resolveÂDAÂÙ>D:\hongmengCode\Login\entry\src\main\ets\view\MinePageView.etsAÃªoh-resolveÂDAÂÙ>D:\hongmengCode\Login\entry\src\main\ets\view\HomePageView.etsAÃªoh-resolveÂ“ÔrE–§version¤fileªsourceRoot§sources¥names¨mappings«MainPage.js ‘¬MainPage.etsÜ ›‘”    ‘” –”   ” ” ” ”ÌA ÌA”ÌB ÌB–”   ” ” ” ”? ?”Ì@ Ì@–”   ” ” ” ”+ +”, ,–”   ” ” ” ”+ +”, ,–”   ” ” ” ”+ +”, ,–”   ” ” ”! !”ÌG ÌG”ÌH ÌH’” ” ‘”  –”: ”ÌM "”ÌO Ì@”Ì^ ÌO”Ì_ ÌP”Ìa ÌR””;  ”ÌJ /”ÌK 0”ÌY >‘” ÌH’” $” 5’” $” 5’” 	” ’” 	” ’” !” !–” "” "” "”' "#”) "%”* "&’” #” #‘” %“” &” &” &	œ” '” '” '”! '”" '”3 ')”8 '.”ÌG '=”ÌH '>”ÌJ 'Ì@”ÌK 'ÌA”ÌL 'ÌBš” (” (”  (”% (”& (”' (”( (”3 ('”4 ((”7 (+–” )” )” )” )” )”( )‘” *” &” &” 7” 7” 7” 7” 7”0 7$”5 7)”ÌD 78”ÌE 79”ÌG 7;”ÌH 7<”ÌI 7=š” 8” 8” 8”+ 8!”, 8"”- 8#”. 8$”< 82”= 83”ÌH 8>” &” &” 9” 9” 9” 9”  9”1 9%”6 9*”ÌE 99”ÌF 9:”ÌH 9<”ÌI 9=”ÌJ 9>š” :” :” :”, :"”- :#”. :$”/ :%”= :3”> :4”ÌP :ÌFœ” &” &” ;” ;” ;” ;” ;”0 ;$”5 ;)”ÌD ;8”ÌE ;9”ÌG ;;˜” &” &” <”  <”! <”& <”' <”, < ˜” &” &” =” =” =”  =”! =”& =–” &” &” >” >” >”! >™” &” &” ?” ?” ?” ?”  ?”" ?”$ ? —” Ì@” Ì@
+” Ì@”! Ì@”$ Ì@”) Ì@”* Ì@ Ü ” ÌA” ÌA” ÌA” ÌA” ÌA”+ ÌA!”, ÌA"”9 ÌA/”; ÌA1”ÌL ÌAÌB”ÌO ÌAÌE”ÌS ÌAÌI”ÌT ÌAÌJ”Ì] ÌAÌS”Ì^ ÌAÌT”Ìc ÌAÌY”Ìd ÌAÌZ”Ìe ÌAÌ[”Ìf ÌAÌ\’” ÌB” ÌB’”4 ,”< ,’” .” .˜” .” .” .”# .”Ì› .;”Ìª .ÌJ”Ì« .ÌK”Ì¹ .ÌY’”4 2”< 2’” 4” 4˜” 4” 4” 4”# 4”Ì› 4;”Ìª 4ÌJ”Ì« 4ÌK”Ì¹ 4ÌY’” &” &‘” ÌCš” ÌE” ÌE” ÌE” ÌE%” ÌE'” ÌE4” ÌE6”( ÌEÌK”* ÌEÌM”3 ÌEÌ`’” ÌF” ÌF
+˜” ÌF” ÌF
+” ÌO”! ÌO”" ÌO”+ ÌO”, ÌO”2 ÌO$˜” ÌF” ÌF
+” ÌP” ÌP” ÌP”( ÌP”) ÌP”4 ÌP&˜” ÌF” ÌF
+” ÌQ” ÌQ
+” ÌQ”' ÌQ”( ÌQ”3 ÌQ%Ü ” ÌG” ÌG” ÌG” ÌG” ÌG”* ÌG”/ ÌG"”4 ÌG'”5 ÌG(”6 ÌG)”7 ÌG*”ÌB ÌG5”ÌC ÌG6”ÌD ÌG7”ÌE ÌG8”ÌN ÌGÌA”” ÌG” ÌG” ÌH	” ÌH”” ÌG” ÌG” ÌI	” ÌI”” ÌJ” ÌJ
+” ÌJ” ÌJ™” ÌJ” ÌJ
+” ÌK	” ÌK” ÌK” ÌK” ÌK”Ì‰ ÌK3”Ì‹ ÌK5”” ÌJ” ÌJ
+” ÌL	” ÌLŸ” ÌJ” ÌJ
+” ÌM	” ÌM” ÌM” ÌM”  ÌM”, ÌM$”1 ÌM)”6 ÌM.”7 ÌM/”8 ÌM0”Ì¤ ÌMÌT”Ì¥ ÌMÌU”Í ÌMÌv’” ÌJ” ÌJ
+’” ÌF” ÌF
+‘” ÌRÔrF–§version¤file§sources®sourcesContent¥names¨mappingsÀ‘À‘ÀÜ ¤‘”    ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”  	 ‘”  
+ ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”   ‘”    ‘”  ! ‘”  " ‘”  # ‘”  $ ‘”  % ‘”  & ‘”  ' ‘”  ( ‘”  ) ‘”  * ‘”  + ‘”  , ‘”  - ‘”  . ‘”  / ‘”  0 ‘”  1 ‘”  2 ‘”  3 ‘”  4 ‘”  5 ‘”  6 ‘”  7 ‘”  8 ‘”  9 ‘”  : ‘”  ; ‘”  < ‘”  = ‘”  > ‘”  ? ‘”  Ì@ ‘”  ÌA ‘”  ÌB ‘”  ÌC ‘”  ÌD ‘”  ÌE ‘”  ÌF ‘”  ÌG ‘”  ÌH ‘”  ÌI ‘”  ÌJ ‘”  ÌK ‘”  ÌL ‘”  ÌM ‘”  ÌN ‘”  ÌO ‘”  ÌP ‘”  ÌQ ‘”  ÌR ‘”  ÌS ‘”  ÌT ‘”  ÌU ‘”  ÌV ‘”  ÌW ‘”  ÌX ‘”  ÌY ‘”  ÌZ ‘”  Ì[ ‘”  Ì\ ‘”  Ì] ‘”  Ì^ ‘”  Ì_ ‘”  Ì` ‘”  Ìa ‘”  Ìb ‘”  Ìc ‘”  Ìd ‘”  Ìe ‘”  Ìf ‘”  Ìg ‘”  Ìh ‘”  Ìi ‘”  Ìj ‘”  Ìk ‘”  Ìl ‘”  Ìm ‘”  Ìn ‘”  Ìo ‘”  Ìp ‘”  Ìq ‘”  Ìr ‘”  Ìs ‘”  Ìt ‘”  Ìu ‘”  Ìv ‘”  Ìw ‘”  Ìx ‘”  Ìy ‘”  Ìz ‘”  Ì{ ‘”  Ì| ‘”  Ì} ‘”  Ì~ ‘”  Ì ‘”  Ì€ ‘”  Ì ‘”  Ì‚ ‘”  Ìƒ ‘”  Ì„ ‘”  Ì… ‘”  Ì† ‘”  Ì‡ ‘”  Ìˆ ‘”  Ì‰ ‘”  ÌŠ ‘”  Ì‹ ‘”  ÌŒ ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì ‘”  Ì‘ ‘”  Ì’ ‘”  Ì“ ‘”  Ì” ‘”  Ì• ‘”  Ì– ‘”  Ì— ‘”  Ì˜ ‘”  Ì™ ‘”  Ìš ‘”  Ì› ‘”  Ìœ ‘”  Ì ‘”  Ì ‘”  ÌŸ ‘”  Ì  ‘”  Ì¡ ‘”  Ì¢ ‘”  Ì£ ÔrG’§missing¦pluginÃ¦genAbcÂÔ  ÔrH”²dynamicImportCache¹exportAllDeclarationCache»exportNamedDeclarationCache«importCache–ÔrI•¤type¥start£endªspecifiers¦source±ImportDeclarationÍîÍ0‘ÔrJ”¤type¥start£end¥local¶ImportDefaultSpecifierÍõÍÔrK”¤type¥start£end¤nameªIdentifierÍõÍ¯CommonConstantsÔrL•¤type¥start£end¥value£raw§LiteralÍ
+Í/Ù#../common/constants/CommonConstantsÙ%'../common/constants/CommonConstants'I±ImportDeclarationÍ2Ír‘J¶ImportDefaultSpecifierÍ9ÍGKªIdentifierÍ9ÍG®StyleConstantsL§LiteralÍMÍqÙ"../common/constants/StyleConstantsÙ$'../common/constants/StyleConstants'I±ImportDeclarationÍtÍ ‘J¶ImportDefaultSpecifierÍ{ÍƒKªIdentifierÍ{Íƒ¨HomePageL§LiteralÍ‰ÍŸ´../view/HomePageView¶'../view/HomePageView'I±ImportDeclarationÍ¢ÍÎ‘J¶ImportDefaultSpecifierÍ©Í±KªIdentifierÍ©Í±¨MinePageL§LiteralÍ·ÍÍ´../view/MinePageView¶'../view/MinePageView'I±ImportDeclarationÍĞÍü‘J¶ImportDefaultSpecifierÍ×ÍİKªIdentifierÍ×Íİ¦LoggerL§LiteralÍãÍû¶../common/utils/Logger¸'../common/utils/Logger'I±ImportDeclarationÍşÍF‘J¶ImportDefaultSpecifierÍÍKªIdentifierÍÍ´MultipleDevicesUtilsL§LiteralÍÍEÙ$../common/utils/MultipleDevicesUtilsÙ&'../common/utils/MultipleDevicesUtils'

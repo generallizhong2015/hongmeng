@@ -1,0 +1,1375 @@
+[2025-07-22T17:41:57.818] [DEBUG] debug-file - runTaskFromQueue task cost before running: 329 ms 
+[2025-07-22T17:41:57.818] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
+[2025-07-22T17:41:57.819] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:57.819] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:57.819] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:57.820] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
+[2025-07-22T17:41:57.822] [DEBUG] debug-file - entry:default@PreviewUpdateAssets is not up-to-date, since the output file 'D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json' has been changed.
+[2025-07-22T17:41:57.822] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets pre-execution cost: 2 ms .
+[2025-07-22T17:41:57.822] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:57.822] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:57.822] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:57.823] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.14592742919921875
+[2025-07-22T17:41:57.823] [DEBUG] debug-file - runTaskFromQueue task cost before running: 333 ms 
+[2025-07-22T17:41:57.823] [INFO] debug-file - Finished :entry:default@PreviewUpdateAssets... after 3 ms 
+[2025-07-22T17:41:57.825] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:57.825] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:57.825] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:57.828] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
+[2025-07-22T17:41:57.838] [DEBUG] debug-file - entry:default@PreviewArkTS is not up-to-date, since the input file 'D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile' has been changed.
+[2025-07-22T17:41:57.838] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS pre-execution cost: 5 ms .
+[2025-07-22T17:41:57.851] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 1.177398681640625
+[2025-07-22T17:41:57.872] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-22T17:41:57.886] [WARN] debug-file - BUILD FAILED in 397 ms 
+[2025-07-22T17:41:57.886] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-07-22T17:41:57.887] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\hongmengCode\Login\entry\.preview\default\generated\profile\default\ModuleInfo.ts cache.
+[2025-07-22T17:41:57.887] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-07-22T17:41:57.887] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-07-22T17:41:57.887] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-07-22T17:41:57.887] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-07-22T17:41:57.888] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-07-22T17:41:57.888] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-07-22T17:41:57.888] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-07-22T17:41:57.888] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-07-22T17:41:57.888] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreviewCompileResource is up-to-date.
+[2025-07-22T17:41:57.888] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CopyPreviewProfile is up-to-date.
+[2025-07-22T17:41:57.888] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\module.json cache.
+[2025-07-22T17:41:57.889] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json cache.
+[2025-07-22T17:41:57.889] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:2 ms .
+[2025-07-22T17:41:57.891] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader\default cache by regenerate.
+[2025-07-22T17:41:57.892] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-07-22T17:41:57.892] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2025-07-22T17:41:57.893] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile cache from map.
+[2025-07-22T17:41:57.893] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\src\main\ets cache by regenerate.
+[2025-07-22T17:41:57.908] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-07-22T17:41:57.908] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\src\main\cpp\types cache by regenerate.
+[2025-07-22T17:41:57.909] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader_out\default\ets cache.
+[2025-07-22T17:41:57.909] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:21 ms .
+[2025-07-22T17:41:57.928] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-22T17:41:57.928] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-07-22T17:41:57.929] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-22T17:41:58.696] [DEBUG] debug-file - session manager: set active socket. socketId=3zVfINuPIygxptmhAAAj
+[2025-07-22T17:41:58.701] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-22T17:41:58.715] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-07-22T17:41:58.721] [DEBUG] debug-file - Cache service initialization finished in 6 ms 
+[2025-07-22T17:41:58.731] [DEBUG] debug-file - hvigorfile, resolving D:\hongmengCode\Login\hvigorfile.ts
+[2025-07-22T17:41:58.739] [DEBUG] debug-file - hvigorfile, require result:  { default: { tasks: { modifyHapName: [Object] } } }
+[2025-07-22T17:41:58.739] [DEBUG] debug-file - hvigorfile, binding system plugins { default: { tasks: { modifyHapName: [Object] } } }
+[2025-07-22T17:41:58.743] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-07-22T17:41:58.744] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-07-22T17:41:58.744] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-07-22T17:41:58.744] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-07-22T17:41:58.745] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-07-22T17:41:58.746] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-07-22T17:41:58.752] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-07-22T17:41:58.776] [DEBUG] debug-file - Sdk init in 29 ms 
+[2025-07-22T17:41:58.793] [DEBUG] debug-file - Project task initialization takes 16 ms 
+[2025-07-22T17:41:58.793] [DEBUG] debug-file - hvigorfile, resolve finished D:\hongmengCode\Login\hvigorfile.ts
+[2025-07-22T17:41:58.798] [DEBUG] debug-file - hvigorfile, resolving D:\hongmengCode\Login\entry\hvigorfile.ts
+[2025-07-22T17:41:58.802] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-22T17:41:58.802] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-22T17:41:58.808] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-22T17:41:58.808] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-22T17:41:58.808] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-22T17:41:58.808] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-07-22T17:41:58.808] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-07-22T17:41:58.808] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-22T17:41:58.808] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+} in this build.
+[2025-07-22T17:41:58.811] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-07-22T17:41:58.811] [DEBUG] debug-file - hvigorfile, resolve finished D:\hongmengCode\Login\entry\hvigorfile.ts
+[2025-07-22T17:41:58.883] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 71 ms 
+[2025-07-22T17:41:58.884] [DEBUG] debug-file - project has submodules:entry
+[2025-07-22T17:41:58.885] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-07-22T17:41:58.892] [DEBUG] debug-file - load to the disk finished
+[2025-07-22T17:41:58.893] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-22T17:41:58.896] [DEBUG] debug-file - Module Login Collected Dependency: 
+[2025-07-22T17:41:58.896] [DEBUG] debug-file - Module Login's total dependency: 0
+[2025-07-22T17:41:58.896] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-22T17:41:58.900] [DEBUG] debug-file - Module entry Collected Dependency: D:\hongmengCode\Login\entry\src\main\cpp\types\libentry
+[2025-07-22T17:41:58.900] [DEBUG] debug-file - Module entry's total dependency: 1
+[2025-07-22T17:41:58.903] [DEBUG] debug-file - Configuration phase cost:178 ms 
+[2025-07-22T17:41:58.904] [DEBUG] debug-file - Configuration task cost before running: 201 ms 
+[2025-07-22T17:41:58.906] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.906] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.906] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.908] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-07-22T17:41:58.915] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 5 ms .
+[2025-07-22T17:41:58.915] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.25977325439453125
+[2025-07-22T17:41:58.916] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-07-22T17:41:58.918] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.918] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.918] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.918] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2025-07-22T17:41:58.919] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-22T17:41:58.919] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.049957275390625
+[2025-07-22T17:41:58.919] [DEBUG] debug-file - runTaskFromQueue task cost before running: 216 ms 
+[2025-07-22T17:41:58.920] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 1 ms 
+[2025-07-22T17:41:58.921] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.921] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.921] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.922] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-07-22T17:41:58.923] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 2 ms .
+[2025-07-22T17:41:58.923] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.10373687744140625
+[2025-07-22T17:41:58.923] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-07-22T17:41:58.925] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.925] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.925] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.925] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-07-22T17:41:58.926] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-07-22T17:41:58.927] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2025-07-22T17:41:58.927] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.09214019775390625
+[2025-07-22T17:41:58.927] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-07-22T17:41:58.929] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.929] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.929] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.929] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-07-22T17:41:58.929] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.929] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.929] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.930] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.04959869384765625
+[2025-07-22T17:41:58.930] [DEBUG] debug-file - runTaskFromQueue task cost before running: 226 ms 
+[2025-07-22T17:41:58.930] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-07-22T17:41:58.931] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.931] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.931] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.938] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-07-22T17:41:58.938] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-22T17:41:58.938] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.03836822509765625
+[2025-07-22T17:41:58.938] [DEBUG] debug-file - runTaskFromQueue task cost before running: 234 ms 
+[2025-07-22T17:41:58.938] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2025-07-22T17:41:58.940] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.940] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.940] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.941] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-07-22T17:41:58.942] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-07-22T17:41:58.942] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.09555816650390625
+[2025-07-22T17:41:58.942] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-07-22T17:41:58.943] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.944] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.944] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.945] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-07-22T17:41:58.948] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 3 ms .
+[2025-07-22T17:41:58.948] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.1269378662109375
+[2025-07-22T17:41:58.948] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-07-22T17:41:58.950] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.950] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.950] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.950] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
+[2025-07-22T17:41:58.952] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
+[2025-07-22T17:41:58.952] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.953] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.953] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.953] [DEBUG] debug-file - entry : default@PreviewProcessResource cost memory 0.0789031982421875
+[2025-07-22T17:41:58.953] [DEBUG] debug-file - runTaskFromQueue task cost before running: 250 ms 
+[2025-07-22T17:41:58.954] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 1 ms 
+[2025-07-22T17:41:58.955] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.956] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.956] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.958] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-07-22T17:41:58.971] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 7 ms .
+[2025-07-22T17:41:58.971] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.5995635986328125
+[2025-07-22T17:41:58.975] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-07-22T17:41:58.977] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:58.977] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:58.977] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:58.978] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
+[2025-07-22T17:41:58.979] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
+[2025-07-22T17:41:59.011] [DEBUG] debug-file - entry:default@PreviewCompileResource is not up-to-date, since the output file 'D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default' has been changed.
+[2025-07-22T17:41:59.011] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource pre-execution cost: 32 ms .
+[2025-07-22T17:41:59.051] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-x',
+  'D:\\hongmengCode\\Login\\AppScope\\resources',
+  '-o',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled'
+]
+[2025-07-22T17:41:59.053] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 323137536,
+  heapTotal: 157433856,
+  heapUsed: 130318648,
+  external: 3100723,
+  arrayBuffers: 94610
+} os memoryUsage :17.074535369873047
+[2025-07-22T17:41:59.092] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-07-22T17:41:59.096] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-x',
+  'D:\\hongmengCode\\Login\\entry\\src\\main\\resources',
+  '-o',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled'
+]
+[2025-07-22T17:41:59.097] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 345059328,
+  heapTotal: 157433856,
+  heapUsed: 130736872,
+  external: 3100849,
+  arrayBuffers: 94751
+} os memoryUsage :17.116809844970703
+[2025-07-22T17:41:59.172] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-07-22T17:41:59.176] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-m',
+  'entry',
+  '-f',
+  '-j',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\process_profile\\default\\module.json',
+  '-p',
+  'c***o',
+  '-r',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\generated\\r\\default\\ResourceTable.h',
+  '-z',
+  '--ids',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\ids_map',
+  '--defined-ids',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\ids_map\\id_defined.json',
+  '-i',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled',
+  '-i',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled',
+  '-o',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default'
+]
+[2025-07-22T17:41:59.178] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 345128960,
+  heapTotal: 157433856,
+  heapUsed: 131020296,
+  external: 3100975,
+  arrayBuffers: 95701
+} os memoryUsage :17.148365020751953
+[2025-07-22T17:41:59.274] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-07-22T17:41:59.280] [DEBUG] debug-file - entry : default@PreviewCompileResource cost memory 0.18663787841796875
+[2025-07-22T17:41:59.280] [DEBUG] debug-file - runTaskFromQueue task cost before running: 576 ms 
+[2025-07-22T17:41:59.281] [INFO] debug-file - Finished :entry:default@PreviewCompileResource... after 301 ms 
+[2025-07-22T17:41:59.282] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:59.282] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:59.282] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:59.282] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
+[2025-07-22T17:41:59.283] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:59.283] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:59.283] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:59.283] [DEBUG] debug-file - entry : default@PreviewHookCompileResource cost memory 0.05071258544921875
+[2025-07-22T17:41:59.283] [DEBUG] debug-file - runTaskFromQueue task cost before running: 579 ms 
+[2025-07-22T17:41:59.283] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
+[2025-07-22T17:41:59.284] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:59.284] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:59.284] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:59.285] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
+[2025-07-22T17:41:59.286] [DEBUG] debug-file - entry:default@CopyPreviewProfile is not up-to-date, since the output file 'D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile' does not exist.
+[2025-07-22T17:41:59.286] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile pre-execution cost: 1 ms .
+[2025-07-22T17:41:59.286] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:59.286] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:59.286] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:59.290] [DEBUG] debug-file - entry : default@CopyPreviewProfile cost memory 0.1919708251953125
+[2025-07-22T17:41:59.290] [DEBUG] debug-file - runTaskFromQueue task cost before running: 586 ms 
+[2025-07-22T17:41:59.290] [INFO] debug-file - Finished :entry:default@CopyPreviewProfile... after 5 ms 
+[2025-07-22T17:41:59.292] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:59.292] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:59.292] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:59.293] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
+[2025-07-22T17:41:59.293] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:59.293] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:59.293] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:59.295] [DEBUG] debug-file - Resolved file D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json.
+[2025-07-22T17:41:59.295] [DEBUG] debug-file - Replace page to view/OnepageView
+[2025-07-22T17:41:59.296] [DEBUG] debug-file - entry : default@ReplacePreviewerPage cost memory 0.1652069091796875
+[2025-07-22T17:41:59.296] [DEBUG] debug-file - runTaskFromQueue task cost before running: 592 ms 
+[2025-07-22T17:41:59.296] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 3 ms 
+[2025-07-22T17:41:59.297] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
+[2025-07-22T17:41:59.297] [DEBUG] debug-file - entry : buildPreviewerResource cost memory 0.01166534423828125
+[2025-07-22T17:41:59.297] [DEBUG] debug-file - runTaskFromQueue task cost before running: 594 ms 
+[2025-07-22T17:41:59.298] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
+[2025-07-22T17:41:59.300] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:59.300] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:59.300] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:59.301] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
+[2025-07-22T17:41:59.303] [DEBUG] debug-file - entry:default@PreviewUpdateAssets is not up-to-date, since the output file 'D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\module.json' has been changed.
+[2025-07-22T17:41:59.303] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets pre-execution cost: 2 ms .
+[2025-07-22T17:41:59.303] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:59.303] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:59.303] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:59.304] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.13774871826171875
+[2025-07-22T17:41:59.304] [DEBUG] debug-file - runTaskFromQueue task cost before running: 601 ms 
+[2025-07-22T17:41:59.305] [INFO] debug-file - Finished :entry:default@PreviewUpdateAssets... after 4 ms 
+[2025-07-22T17:41:59.307] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:41:59.307] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:41:59.307] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:41:59.313] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
+[2025-07-22T17:41:59.334] [DEBUG] debug-file - session manager: binding session. socketId=3zVfINuPIygxptmhAAAj, threadId=1@17.
+[2025-07-22T17:41:59.335] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 1.0502853393554688
+[2025-07-22T17:42:01.367] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-07-22T17:42:01.369] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-07-22T17:42:01.369] [DEBUG] debug-file - session manager: undefined socket. Type: WatchStart
+[2025-07-22T17:42:02.815] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-07-22T17:42:02.817] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-07-22T17:42:05.252] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:05.254] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:05.254] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:05.253] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:05.255] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:05.256] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:05.254] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:05.257] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:05.257] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:05.254] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:05.258] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:05.258] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:05.348] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:05.350] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:05.351] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:06.709] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:06.711] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:06.709] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:06.712] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:06.710] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:06.713] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:06.711] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:06.714] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:06.777] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:06.779] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:07.266] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-07-22T17:42:07.268] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-07-22T17:42:07.268] [DEBUG] debug-file - session manager: undefined socket. Type: WatchResult
+[2025-07-22T17:42:07.268] [DEBUG] debug-file - Ark compile finished.
+[2025-07-22T17:42:07.270] [WARN] debug-file - Can not getEventById:'48d6d643-5b84-4ff5-b2d9-3436e1a6aa90' from MetricCacheService.
+[2025-07-22T17:42:07.272] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 9 s 442 ms 
+[2025-07-22T17:42:07.273] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2025-07-22T17:42:07.273] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.01153564453125
+[2025-07-22T17:42:07.273] [DEBUG] debug-file - runTaskFromQueue task cost before running: 8 s 569 ms 
+[2025-07-22T17:42:07.273] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2025-07-22T17:42:07.284] [DEBUG] debug-file - BUILD SUCCESSFUL in 8 s 580 ms 
+[2025-07-22T17:42:07.284] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-07-22T17:42:07.284] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\hongmengCode\Login\entry\.preview\default\generated\profile\default\ModuleInfo.ts cache.
+[2025-07-22T17:42:07.285] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-07-22T17:42:07.285] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-07-22T17:42:07.285] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-07-22T17:42:07.285] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-07-22T17:42:07.285] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-07-22T17:42:07.285] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-07-22T17:42:07.285] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-07-22T17:42:07.285] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-07-22T17:42:07.286] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\hongmengCode\Login\entry\src\main\resources cache by regenerate.
+[2025-07-22T17:42:07.297] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2025-07-22T17:42:07.297] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default cache.
+[2025-07-22T17:42:07.312] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\hongmengCode\Login\entry\.preview\default\generated\r\default cache.
+[2025-07-22T17:42:07.312] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource post-execution cost:28 ms .
+[2025-07-22T17:42:07.312] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile input file:D:\hongmengCode\Login\entry\src\main\resources\base\profile cache by regenerate.
+[2025-07-22T17:42:07.313] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile cache.
+[2025-07-22T17:42:07.313] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile post-execution cost:2 ms .
+[2025-07-22T17:42:07.314] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\module.json cache.
+[2025-07-22T17:42:07.314] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json cache.
+[2025-07-22T17:42:07.314] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:1 ms .
+[2025-07-22T17:42:07.316] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader\default cache by regenerate.
+[2025-07-22T17:42:07.316] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-07-22T17:42:07.317] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2025-07-22T17:42:07.317] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-07-22T17:42:07.317] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\src\main\ets cache by regenerate.
+[2025-07-22T17:42:07.325] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-07-22T17:42:07.325] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\src\main\cpp\types cache by regenerate.
+[2025-07-22T17:42:07.326] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader_out\default\ets cache.
+[2025-07-22T17:42:07.326] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:12 ms .
+[2025-07-22T17:42:07.351] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-07-22T17:42:07.352] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-22T17:42:08.690] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-07-22T17:42:08.692] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-07-22T17:42:08.691] [WARN] debug-file - Can not getEventById:'864edba6-b21b-4238-8134-00eb2e73badb' from MetricCacheService.
+[2025-07-22T17:42:08.692] [WARN] debug-file - Can not getEventById:'35d7be37-bbd3-4e58-91c6-90029646f5fa' from MetricCacheService.
+[2025-07-22T17:42:08.692] [WARN] debug-file - Can not getEventById:'8b0566b5-4f33-4498-85b0-f96d878976be' from MetricCacheService.
+[2025-07-22T17:42:08.692] [WARN] debug-file - Can not getEventById:'76365076-27ef-47b2-88ae-d25a0125b870' from MetricCacheService.
+[2025-07-22T17:42:08.692] [WARN] debug-file - Can not getEventById:'0390311b-d193-4fa8-aaf6-83e7edcdfbb4' from MetricCacheService.
+[2025-07-22T17:42:08.692] [WARN] debug-file - Can not getEventById:'fc599e4a-4a9e-477b-9f56-46a90e51c0c4' from MetricCacheService.
+[2025-07-22T17:42:08.692] [DEBUG] debug-file - Ark compile finished.
+[2025-07-22T17:42:08.694] [WARN] debug-file - Can not getEventById:'a3b0b850-e2c6-409c-a929-e4e41ce80b09' from MetricCacheService.
+[2025-07-22T17:42:08.695] [DEBUG] debug-file - hvigor build process will be closed with an error.
+[2025-07-22T17:42:08.796] [DEBUG] debug-file - ERROR: stacktrace = TypeError: Cannot read properties of undefined (reading 'getName')
+    at ModulePathInfoIml.getModuleBuildPath (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\common\iml\module-path-info-iml.js:1:2185)
+    at ModulePathInfoIml.getModuleProductPath (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\common\iml\module-path-info-iml.js:1:3735)
+    at ModulePathInfoIml.getModuleBuildIntermediates (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\common\iml\module-path-info-iml.js:1:4495)
+    at ModulePathInfoIml.getIntermediatesLoaderPath (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\common\iml\module-path-info-iml.js:1:10734)
+    at ModulePathInfoIml.getIntermediatesPkgContextInfoPath (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\common\iml\module-path-info-iml.js:1:11063)
+    at PreviewerArkCompile.declareInputFiles (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\abstract\abstract-compile-node.js:1:9044)
+    at PreviewerArkCompile.declareInputFiles (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\ark-compile.js:1:6191)
+    at PreviewerArkCompile.declareInputFiles (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\previewer-ark-compile.js:1:1284)
+    at isIncrementalTask (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\util\task-util.js:1:675)
+    at markTaskExecuteSuccessful (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\util\task-util.js:1:1141)
+[2025-07-22T17:42:08.796] [ERROR] debug-file - TypeError: Cannot read properties of undefined (reading 'getName')
+    at ModulePathInfoIml.getModuleBuildPath (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\common\iml\module-path-info-iml.js:1:2185)
+    at ModulePathInfoIml.getModuleProductPath (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\common\iml\module-path-info-iml.js:1:3735)
+    at ModulePathInfoIml.getModuleBuildIntermediates (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\common\iml\module-path-info-iml.js:1:4495)
+    at ModulePathInfoIml.getIntermediatesLoaderPath (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\common\iml\module-path-info-iml.js:1:10734)
+    at ModulePathInfoIml.getIntermediatesPkgContextInfoPath (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\common\iml\module-path-info-iml.js:1:11063)
+    at PreviewerArkCompile.declareInputFiles (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\abstract\abstract-compile-node.js:1:9044)
+    at PreviewerArkCompile.declareInputFiles (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\ark-compile.js:1:6191)
+    at PreviewerArkCompile.declareInputFiles (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor-ohos-plugin\src\tasks\previewer-ark-compile.js:1:1284)
+    at isIncrementalTask (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\util\task-util.js:1:675)
+    at markTaskExecuteSuccessful (C:\Program Files\Huawei\DevEco Studio\tools\hvigor\hvigor\src\base\util\task-util.js:1:1141)
+[2025-07-22T17:42:49.777] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:42:49.777] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:42:49.777] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:42:50.618] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:42:50.620] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:42:52.425] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:42:52.425] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:42:52.443] [DEBUG] debug-file - bad codeSnippet [object Object]
+[2025-07-22T17:42:52.449] [DEBUG] debug-file - watch worker: worker is ready to be terminated.
+[2025-07-22T17:42:52.449] [DEBUG] debug-file - Server currently has 1 watch-worker
+[2025-07-22T17:42:53.199] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-07-22T17:42:53.201] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-07-22T17:42:53.201] [DEBUG] debug-file - session manager: undefined socket. Type: WatchStart
+[2025-07-22T17:42:53.777] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:53.779] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:53.779] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:53.778] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:53.780] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:53.781] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:53.779] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:53.783] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:53.783] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:53.780] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:53.784] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:53.784] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:53.989] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:53.991] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:53.991] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:53.990] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-07-22T17:42:53.992] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-07-22T17:42:53.992] [DEBUG] debug-file - session manager: undefined socket. Type: WatchResult
+[2025-07-22T17:42:57.649] [DEBUG] debug-file - session manager: set active socket. socketId=Q8aAV2hAAhiZrkhEAAAl
+[2025-07-22T17:42:57.653] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-22T17:42:57.664] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-07-22T17:42:57.669] [DEBUG] debug-file - Cache service initialization finished in 6 ms 
+[2025-07-22T17:42:57.679] [DEBUG] debug-file - hvigorfile, resolving D:\hongmengCode\Login\hvigorfile.ts
+[2025-07-22T17:42:57.686] [DEBUG] debug-file - hvigorfile, require result:  { default: { tasks: { modifyHapName: [Object] } } }
+[2025-07-22T17:42:57.686] [DEBUG] debug-file - hvigorfile, binding system plugins { default: { tasks: { modifyHapName: [Object] } } }
+[2025-07-22T17:42:57.691] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-07-22T17:42:57.691] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-07-22T17:42:57.691] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-07-22T17:42:57.691] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-07-22T17:42:57.693] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-07-22T17:42:57.694] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-07-22T17:42:57.702] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-07-22T17:42:57.727] [DEBUG] debug-file - Sdk init in 32 ms 
+[2025-07-22T17:42:57.741] [DEBUG] debug-file - Project task initialization takes 14 ms 
+[2025-07-22T17:42:57.741] [DEBUG] debug-file - hvigorfile, resolve finished D:\hongmengCode\Login\hvigorfile.ts
+[2025-07-22T17:42:57.746] [DEBUG] debug-file - hvigorfile, resolving D:\hongmengCode\Login\entry\hvigorfile.ts
+[2025-07-22T17:42:57.748] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-22T17:42:57.748] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-22T17:42:57.753] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-22T17:42:57.753] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-22T17:42:57.753] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-22T17:42:57.754] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-07-22T17:42:57.754] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-07-22T17:42:57.754] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-22T17:42:57.754] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+} in this build.
+[2025-07-22T17:42:57.757] [DEBUG] debug-file - Module entry task initialization takes 2 ms 
+[2025-07-22T17:42:57.757] [DEBUG] debug-file - hvigorfile, resolve finished D:\hongmengCode\Login\entry\hvigorfile.ts
+[2025-07-22T17:42:57.820] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 62 ms 
+[2025-07-22T17:42:57.821] [DEBUG] debug-file - project has submodules:entry
+[2025-07-22T17:42:57.823] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-07-22T17:42:57.829] [DEBUG] debug-file - load to the disk finished
+[2025-07-22T17:42:57.831] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-22T17:42:57.833] [DEBUG] debug-file - Module Login Collected Dependency: 
+[2025-07-22T17:42:57.833] [DEBUG] debug-file - Module Login's total dependency: 0
+[2025-07-22T17:42:57.834] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-22T17:42:57.837] [DEBUG] debug-file - Module entry Collected Dependency: D:\hongmengCode\Login\entry\src\main\cpp\types\libentry
+[2025-07-22T17:42:57.837] [DEBUG] debug-file - Module entry's total dependency: 1
+[2025-07-22T17:42:57.840] [DEBUG] debug-file - Configuration phase cost:165 ms 
+[2025-07-22T17:42:57.841] [DEBUG] debug-file - Configuration task cost before running: 186 ms 
+[2025-07-22T17:42:57.843] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.843] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.843] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.846] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-07-22T17:42:57.853] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 5 ms .
+[2025-07-22T17:42:57.853] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.24776458740234375
+[2025-07-22T17:42:57.855] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-07-22T17:42:57.856] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.856] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.856] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.857] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2025-07-22T17:42:57.857] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-22T17:42:57.858] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.0500335693359375
+[2025-07-22T17:42:57.858] [DEBUG] debug-file - runTaskFromQueue task cost before running: 203 ms 
+[2025-07-22T17:42:57.858] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 1 ms 
+[2025-07-22T17:42:57.860] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.860] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.860] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.860] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-07-22T17:42:57.862] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 2 ms .
+[2025-07-22T17:42:57.862] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1016693115234375
+[2025-07-22T17:42:57.862] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-07-22T17:42:57.864] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.864] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.864] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.865] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-07-22T17:42:57.866] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-07-22T17:42:57.868] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 2 ms .
+[2025-07-22T17:42:57.868] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.0927581787109375
+[2025-07-22T17:42:57.868] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-07-22T17:42:57.870] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.870] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.870] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.871] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-07-22T17:42:57.871] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.871] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.871] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.871] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.04959869384765625
+[2025-07-22T17:42:57.871] [DEBUG] debug-file - runTaskFromQueue task cost before running: 217 ms 
+[2025-07-22T17:42:57.871] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-07-22T17:42:57.873] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.873] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.874] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.883] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-07-22T17:42:57.883] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-22T17:42:57.884] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.03835296630859375
+[2025-07-22T17:42:57.884] [DEBUG] debug-file - runTaskFromQueue task cost before running: 229 ms 
+[2025-07-22T17:42:57.884] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2025-07-22T17:42:57.886] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.886] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.886] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.887] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-07-22T17:42:57.888] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-07-22T17:42:57.888] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.0941314697265625
+[2025-07-22T17:42:57.888] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-07-22T17:42:57.890] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.890] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.890] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.891] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-07-22T17:42:57.894] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 3 ms .
+[2025-07-22T17:42:57.894] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.12664031982421875
+[2025-07-22T17:42:57.895] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-07-22T17:42:57.897] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.898] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.898] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.898] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
+[2025-07-22T17:42:57.900] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
+[2025-07-22T17:42:57.900] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.900] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.900] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.900] [DEBUG] debug-file - entry : default@PreviewProcessResource cost memory 0.07879638671875
+[2025-07-22T17:42:57.901] [DEBUG] debug-file - runTaskFromQueue task cost before running: 246 ms 
+[2025-07-22T17:42:57.902] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 1 ms 
+[2025-07-22T17:42:57.903] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.903] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.903] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.905] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-07-22T17:42:57.918] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 7 ms .
+[2025-07-22T17:42:57.918] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.5949172973632812
+[2025-07-22T17:42:57.922] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-07-22T17:42:57.923] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:57.923] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:57.923] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:57.924] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
+[2025-07-22T17:42:57.925] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
+[2025-07-22T17:42:57.950] [DEBUG] debug-file - entry:default@PreviewCompileResource is not up-to-date, since the output file 'D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default' has been changed.
+[2025-07-22T17:42:57.950] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource pre-execution cost: 24 ms .
+[2025-07-22T17:42:58.041] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-x',
+  'D:\\hongmengCode\\Login\\AppScope\\resources',
+  '-o',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled'
+]
+[2025-07-22T17:42:58.042] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 725188608,
+  heapTotal: 152076288,
+  heapUsed: 120768672,
+  external: 3075480,
+  arrayBuffers: 69367
+} os memoryUsage :17.584827423095703
+[2025-07-22T17:42:58.082] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-07-22T17:42:58.086] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-x',
+  'D:\\hongmengCode\\Login\\entry\\src\\main\\resources',
+  '-o',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled'
+]
+[2025-07-22T17:42:58.087] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 725213184,
+  heapTotal: 152076288,
+  heapUsed: 121054616,
+  external: 3075606,
+  arrayBuffers: 69508
+} os memoryUsage :17.562606811523438
+[2025-07-22T17:42:58.153] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-07-22T17:42:58.156] [DEBUG] debug-file - Use tool [C:\Program Files\Huawei\DevEco Studio\sdk\default\openharmony\toolchains\restool.exe]
+ [
+  'C:\\Program Files\\Huawei\\DevEco Studio\\sdk\\default\\openharmony\\toolchains\\restool.exe',
+  '-m',
+  'entry',
+  '-f',
+  '-j',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\process_profile\\default\\module.json',
+  '-p',
+  'c***o',
+  '-r',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\generated\\r\\default\\ResourceTable.h',
+  '-z',
+  '--ids',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\ids_map',
+  '--defined-ids',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\ids_map\\id_defined.json',
+  '-i',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\app_compiled',
+  '-i',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default\\module_compiled',
+  '-o',
+  'D:\\hongmengCode\\Login\\entry\\.preview\\default\\intermediates\\res\\default'
+]
+[2025-07-22T17:42:58.157] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 725217280,
+  heapTotal: 152076288,
+  heapUsed: 121366240,
+  external: 3075732,
+  arrayBuffers: 70458
+} os memoryUsage :17.557579040527344
+[2025-07-22T17:42:58.234] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-07-22T17:42:58.236] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-07-22T17:42:58.236] [DEBUG] debug-file - session manager: undefined socket. Type: WatchStart
+[2025-07-22T17:42:58.250] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-07-22T17:42:58.256] [DEBUG] debug-file - entry : default@PreviewCompileResource cost memory -11.759620666503906
+[2025-07-22T17:42:58.256] [DEBUG] debug-file - runTaskFromQueue task cost before running: 601 ms 
+[2025-07-22T17:42:58.257] [INFO] debug-file - Finished :entry:default@PreviewCompileResource... after 331 ms 
+[2025-07-22T17:42:58.259] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:58.259] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:58.259] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:58.259] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
+[2025-07-22T17:42:58.259] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:58.259] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:58.259] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:58.259] [DEBUG] debug-file - entry : default@PreviewHookCompileResource cost memory 0.051666259765625
+[2025-07-22T17:42:58.259] [DEBUG] debug-file - runTaskFromQueue task cost before running: 605 ms 
+[2025-07-22T17:42:58.259] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
+[2025-07-22T17:42:58.261] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:58.261] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:58.261] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:58.262] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
+[2025-07-22T17:42:58.263] [DEBUG] debug-file - entry:default@CopyPreviewProfile is not up-to-date, since the output file 'D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile' does not exist.
+[2025-07-22T17:42:58.263] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile pre-execution cost: 1 ms .
+[2025-07-22T17:42:58.263] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:58.263] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:58.263] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:58.267] [DEBUG] debug-file - entry : default@CopyPreviewProfile cost memory 0.33066558837890625
+[2025-07-22T17:42:58.267] [DEBUG] debug-file - runTaskFromQueue task cost before running: 613 ms 
+[2025-07-22T17:42:58.268] [INFO] debug-file - Finished :entry:default@CopyPreviewProfile... after 6 ms 
+[2025-07-22T17:42:58.270] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:58.270] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:58.270] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:58.270] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
+[2025-07-22T17:42:58.270] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:58.271] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:58.271] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:58.272] [DEBUG] debug-file - Resolved file D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json.
+[2025-07-22T17:42:58.273] [DEBUG] debug-file - Replace page to view/OnepageView
+[2025-07-22T17:42:58.274] [DEBUG] debug-file - entry : default@ReplacePreviewerPage cost memory 0.1666717529296875
+[2025-07-22T17:42:58.274] [DEBUG] debug-file - runTaskFromQueue task cost before running: 619 ms 
+[2025-07-22T17:42:58.274] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 4 ms 
+[2025-07-22T17:42:58.276] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
+[2025-07-22T17:42:58.276] [DEBUG] debug-file - entry : buildPreviewerResource cost memory 0.01166534423828125
+[2025-07-22T17:42:58.276] [DEBUG] debug-file - runTaskFromQueue task cost before running: 621 ms 
+[2025-07-22T17:42:58.276] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
+[2025-07-22T17:42:58.279] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:58.279] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:58.279] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:58.280] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
+[2025-07-22T17:42:58.282] [DEBUG] debug-file - entry:default@PreviewUpdateAssets is not up-to-date, since the output file 'D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\module.json' has been changed.
+[2025-07-22T17:42:58.282] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets pre-execution cost: 2 ms .
+[2025-07-22T17:42:58.283] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:58.283] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:58.283] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:58.284] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.1414031982421875
+[2025-07-22T17:42:58.284] [DEBUG] debug-file - runTaskFromQueue task cost before running: 630 ms 
+[2025-07-22T17:42:58.285] [INFO] debug-file - Finished :entry:default@PreviewUpdateAssets... after 5 ms 
+[2025-07-22T17:42:58.287] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:42:58.287] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:42:58.287] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:42:58.291] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
+[2025-07-22T17:42:58.302] [DEBUG] debug-file - entry:default@PreviewArkTS is not up-to-date, since the input file 'D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\ResourceTable.txt' has been changed.
+[2025-07-22T17:42:58.302] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS pre-execution cost: 5 ms .
+[2025-07-22T17:42:58.316] [DEBUG] debug-file - session manager: binding session. socketId=Q8aAV2hAAhiZrkhEAAAl, threadId=1@18.
+[2025-07-22T17:42:58.317] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 1.3339920043945312
+[2025-07-22T17:42:58.494] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.496] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.496] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.495] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.497] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.497] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.496] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.498] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.499] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.496] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.500] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.500] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.524] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.526] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.527] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.624] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.626] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.626] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.625] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.628] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.628] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.626] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.629] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.630] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.626] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.631] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.632] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.627] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.633] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.633] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.628] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.634] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.635] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.629] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.636] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.636] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.630] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.638] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.638] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.630] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.639] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.640] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.631] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.641] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.641] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.632] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.643] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.643] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.633] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.644] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.645] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.634] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.646] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.646] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.635] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.647] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.648] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.635] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.649] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.649] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.636] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.651] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.651] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.636] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.653] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.653] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.637] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.654] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.654] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.638] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.655] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.656] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.639] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.656] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.657] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.640] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.658] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.658] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.641] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.660] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.660] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.670] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.672] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.673] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.671] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.674] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.674] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.672] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.676] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.676] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.673] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:58.677] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:58.677] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:58.820] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-07-22T17:42:58.822] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-07-22T17:42:58.822] [DEBUG] debug-file - session manager: undefined socket. Type: WatchResult
+[2025-07-22T17:42:58.932] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-07-22T17:42:58.934] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-07-22T17:42:58.934] [DEBUG] debug-file - session manager: undefined socket. Type: WatchStart
+[2025-07-22T17:42:59.155] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:59.156] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:59.157] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:59.155] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:59.158] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:59.158] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:59.156] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:59.160] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:59.160] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:59.157] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:59.161] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:59.161] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:59.162] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:42:59.164] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:42:59.164] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:42:59.367] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-07-22T17:42:59.368] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-07-22T17:42:59.369] [DEBUG] debug-file - session manager: undefined socket. Type: WatchResult
+[2025-07-22T17:43:01.519] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-07-22T17:43:01.521] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-07-22T17:43:04.746] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:43:04.748] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:43:04.747] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:43:04.749] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:43:04.748] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:43:04.750] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:43:04.749] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:43:04.752] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:43:06.273] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:43:06.275] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:43:06.274] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-07-22T17:43:06.276] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-07-22T17:43:06.275] [DEBUG] debug-file - Ark compile finished.
+[2025-07-22T17:43:06.279] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 7 s 986 ms 
+[2025-07-22T17:43:06.280] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2025-07-22T17:43:06.280] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.011566162109375
+[2025-07-22T17:43:06.280] [DEBUG] debug-file - runTaskFromQueue task cost before running: 8 s 626 ms 
+[2025-07-22T17:43:06.281] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2025-07-22T17:43:06.289] [DEBUG] debug-file - BUILD SUCCESSFUL in 8 s 634 ms 
+[2025-07-22T17:43:06.289] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-07-22T17:43:06.289] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\hongmengCode\Login\entry\.preview\default\generated\profile\default\ModuleInfo.ts cache.
+[2025-07-22T17:43:06.289] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-07-22T17:43:06.289] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-07-22T17:43:06.289] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-07-22T17:43:06.289] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-07-22T17:43:06.289] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-07-22T17:43:06.289] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-07-22T17:43:06.290] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-07-22T17:43:06.290] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-07-22T17:43:06.290] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\hongmengCode\Login\entry\src\main\resources cache by regenerate.
+[2025-07-22T17:43:06.303] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\merge_profile\default\module.json cache by regenerate.
+[2025-07-22T17:43:06.303] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default cache.
+[2025-07-22T17:43:06.317] [DEBUG] debug-file - Update task entry:default@PreviewCompileResource output file:D:\hongmengCode\Login\entry\.preview\default\generated\r\default cache.
+[2025-07-22T17:43:06.317] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource post-execution cost:28 ms .
+[2025-07-22T17:43:06.317] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile input file:D:\hongmengCode\Login\entry\src\main\resources\base\profile cache by regenerate.
+[2025-07-22T17:43:06.318] [DEBUG] debug-file - Update task entry:default@CopyPreviewProfile output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile cache.
+[2025-07-22T17:43:06.318] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile post-execution cost:2 ms .
+[2025-07-22T17:43:06.319] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\module.json cache.
+[2025-07-22T17:43:06.319] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json cache.
+[2025-07-22T17:43:06.319] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:2 ms .
+[2025-07-22T17:43:06.321] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader\default cache by regenerate.
+[2025-07-22T17:43:06.322] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache from map.
+[2025-07-22T17:43:06.322] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2025-07-22T17:43:06.322] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile cache by regenerate.
+[2025-07-22T17:43:06.323] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\src\main\ets cache by regenerate.
+[2025-07-22T17:43:06.331] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-07-22T17:43:06.331] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\src\main\cpp\types cache by regenerate.
+[2025-07-22T17:43:06.332] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader_out\default\ets cache.
+[2025-07-22T17:43:06.332] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:13 ms .
+[2025-07-22T17:43:06.352] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-07-22T17:43:06.352] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-22T17:44:10.190] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:10.191] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:10.191] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:11.028] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:11.029] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:11.862] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:11.862] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:11.863] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:12.196] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:12.197] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:12.199] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:12.200] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:12.200] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:12.530] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:12.531] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:12.533] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:12.533] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:12.534] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:12.849] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:12.850] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:15.456] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:15.457] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:15.457] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:15.779] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:15.780] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:17.505] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:17.505] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:17.505] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:17.815] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:17.816] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:17.818] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:17.819] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:17.819] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:18.135] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:18.137] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:18.139] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:18.139] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:18.140] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:18.470] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:18.472] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:18.474] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:18.474] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:18.474] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:18.795] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:18.796] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:18.798] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:18.798] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:18.798] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:19.108] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:19.110] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:19.112] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:19.112] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:19.112] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:19.433] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:19.435] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:19.608] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:19.609] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:19.609] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:19.923] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:19.924] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:20.668] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:20.668] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:20.668] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:20.979] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:20.980] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:21.142] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:21.142] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:21.143] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:21.462] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:21.463] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:21.514] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:21.515] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:21.515] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:21.821] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:21.823] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:23.263] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:23.264] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:23.264] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:23.581] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:23.583] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:23.584] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:23.585] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:23.585] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:23.899] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:23.900] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:23.902] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:23.902] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:23.902] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:24.219] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:24.220] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:26.568] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:26.568] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:26.569] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:26.885] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:26.888] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:26.895] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:26.896] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:26.896] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:27.216] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:27.217] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:28.663] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:28.663] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:28.664] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:28.980] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:28.981] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:30.527] [DEBUG] debug-file - session manager: receive watch compile data.
+[2025-07-22T17:44:30.527] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:30.528] [DEBUG] debug-file - watch worker: receive watch compile tata.
+[2025-07-22T17:44:30.833] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchCompileResult
+[2025-07-22T17:44:30.835] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchCompileResult
+[2025-07-22T17:44:38.716] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:38.716] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:44:38.736] [DEBUG] debug-file - bad codeSnippet [object Object]
+[2025-07-22T17:44:38.744] [DEBUG] debug-file - watch worker: worker is ready to be terminated.
+[2025-07-22T17:44:38.745] [DEBUG] debug-file - Server currently has 1 watch-worker
+[2025-07-22T17:44:39.448] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-07-22T17:44:39.450] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-07-22T17:44:39.450] [DEBUG] debug-file - session manager: undefined socket. Type: WatchStart
+[2025-07-22T17:44:39.984] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:44:39.985] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:44:39.986] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:44:39.985] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:44:39.986] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:44:39.987] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:44:39.986] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:44:39.988] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:44:39.988] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:44:39.986] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:44:39.989] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:44:39.989] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:44:40.132] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:44:40.133] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:44:40.134] [DEBUG] debug-file - session manager: undefined socket. Type: WatchLog
+[2025-07-22T17:44:40.133] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-07-22T17:44:40.135] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-07-22T17:44:40.135] [DEBUG] debug-file - session manager: undefined socket. Type: WatchResult
+[2025-07-22T17:44:45.711] [DEBUG] debug-file - session manager: set active socket. socketId=hSOHpq44lkXTP9OuAAAn
+[2025-07-22T17:44:45.716] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-07-22T17:44:45.727] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-07-22T17:44:45.731] [DEBUG] debug-file - Cache service initialization finished in 5 ms 
+[2025-07-22T17:44:45.740] [DEBUG] debug-file - hvigorfile, resolving D:\hongmengCode\Login\hvigorfile.ts
+[2025-07-22T17:44:45.748] [DEBUG] debug-file - hvigorfile, require result:  { default: { tasks: { modifyHapName: [Object] } } }
+[2025-07-22T17:44:45.748] [DEBUG] debug-file - hvigorfile, binding system plugins { default: { tasks: { modifyHapName: [Object] } } }
+[2025-07-22T17:44:45.755] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-07-22T17:44:45.755] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-07-22T17:44:45.756] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-07-22T17:44:45.756] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-07-22T17:44:45.757] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-07-22T17:44:45.761] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-07-22T17:44:45.767] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-07-22T17:44:45.792] [DEBUG] debug-file - Sdk init in 31 ms 
+[2025-07-22T17:44:45.806] [DEBUG] debug-file - Project task initialization takes 14 ms 
+[2025-07-22T17:44:45.806] [DEBUG] debug-file - hvigorfile, resolve finished D:\hongmengCode\Login\hvigorfile.ts
+[2025-07-22T17:44:45.811] [DEBUG] debug-file - hvigorfile, resolving D:\hongmengCode\Login\entry\hvigorfile.ts
+[2025-07-22T17:44:45.813] [DEBUG] debug-file - hvigorfile, require result:  {}
+[2025-07-22T17:44:45.813] [DEBUG] debug-file - hvigorfile, binding system plugins {}
+[2025-07-22T17:44:45.817] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-07-22T17:44:45.817] [DEBUG] debug-file - Target 'default' config: {}
+[2025-07-22T17:44:45.818] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-07-22T17:44:45.818] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-07-22T17:44:45.818] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+}
+[2025-07-22T17:44:45.818] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-07-22T17:44:45.818] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "externalNativeOptions": {
+    "path": "./src/main/cpp/CMakeLists.txt",
+    "arguments": "",
+    "cppFlags": "",
+    "abiFilters": [
+      "arm64-v8a",
+      "x86_64"
+    ]
+  }
+} in this build.
+[2025-07-22T17:44:45.821] [DEBUG] debug-file - Module entry task initialization takes 1 ms 
+[2025-07-22T17:44:45.821] [DEBUG] debug-file - hvigorfile, resolve finished D:\hongmengCode\Login\entry\hvigorfile.ts
+[2025-07-22T17:44:45.885] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 63 ms 
+[2025-07-22T17:44:45.885] [DEBUG] debug-file - project has submodules:entry
+[2025-07-22T17:44:45.887] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-07-22T17:44:45.893] [DEBUG] debug-file - load to the disk finished
+[2025-07-22T17:44:45.894] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-22T17:44:45.896] [DEBUG] debug-file - Module Login Collected Dependency: 
+[2025-07-22T17:44:45.896] [DEBUG] debug-file - Module Login's total dependency: 0
+[2025-07-22T17:44:45.897] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-07-22T17:44:45.900] [DEBUG] debug-file - Module entry Collected Dependency: D:\hongmengCode\Login\entry\src\main\cpp\types\libentry
+[2025-07-22T17:44:45.900] [DEBUG] debug-file - Module entry's total dependency: 1
+[2025-07-22T17:44:45.902] [DEBUG] debug-file - Configuration phase cost:168 ms 
+[2025-07-22T17:44:45.904] [DEBUG] debug-file - Configuration task cost before running: 185 ms 
+[2025-07-22T17:44:45.905] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.905] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.905] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.908] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-07-22T17:44:45.914] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 5 ms .
+[2025-07-22T17:44:45.914] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.25949859619140625
+[2025-07-22T17:44:45.918] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-07-22T17:44:45.919] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.920] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.920] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.920] [DEBUG] debug-file - Executing task :entry:default@CreateModuleInfo
+[2025-07-22T17:44:45.920] [DEBUG] debug-file - Task 'entry:default@CreateModuleInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-22T17:44:45.921] [DEBUG] debug-file - entry : default@CreateModuleInfo cost memory 0.0496978759765625
+[2025-07-22T17:44:45.921] [DEBUG] debug-file - runTaskFromQueue task cost before running: 203 ms 
+[2025-07-22T17:44:45.921] [INFO] debug-file - Finished :entry:default@CreateModuleInfo... after 1 ms 
+[2025-07-22T17:44:45.923] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.923] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.923] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.924] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-07-22T17:44:45.925] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 2 ms .
+[2025-07-22T17:44:45.925] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.10208892822265625
+[2025-07-22T17:44:45.926] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-07-22T17:44:45.927] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.927] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.927] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.928] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-07-22T17:44:45.928] [DEBUG] debug-file - Task 'entry:default@CreateBuildProfile' cost while wrapping incremental declarations: 1 ms 
+[2025-07-22T17:44:45.929] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 1 ms .
+[2025-07-22T17:44:45.930] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.092254638671875
+[2025-07-22T17:44:45.930] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-07-22T17:44:45.931] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.931] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.931] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.932] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-07-22T17:44:45.932] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.932] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.932] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.932] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.04972076416015625
+[2025-07-22T17:44:45.932] [DEBUG] debug-file - runTaskFromQueue task cost before running: 214 ms 
+[2025-07-22T17:44:45.932] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-07-22T17:44:45.933] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.933] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.933] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.940] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-07-22T17:44:45.941] [DEBUG] debug-file - Task 'entry:default@GeneratePkgContextInfo' cost while wrapping incremental declarations: 1 ms 
+[2025-07-22T17:44:45.941] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.03842926025390625
+[2025-07-22T17:44:45.941] [DEBUG] debug-file - runTaskFromQueue task cost before running: 223 ms 
+[2025-07-22T17:44:45.941] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 1 ms 
+[2025-07-22T17:44:45.942] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.942] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.943] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.943] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-07-22T17:44:45.945] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-07-22T17:44:45.945] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.0955963134765625
+[2025-07-22T17:44:45.945] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-07-22T17:44:45.946] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.946] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.946] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.947] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-07-22T17:44:45.950] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 3 ms .
+[2025-07-22T17:44:45.950] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.12699127197265625
+[2025-07-22T17:44:45.951] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-07-22T17:44:45.952] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.952] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.952] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.953] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewProcessResource
+[2025-07-22T17:44:45.955] [DEBUG] debug-file - Executing task :entry:default@PreviewProcessResource
+[2025-07-22T17:44:45.955] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.955] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.955] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.955] [DEBUG] debug-file - entry : default@PreviewProcessResource cost memory 0.07886505126953125
+[2025-07-22T17:44:45.956] [DEBUG] debug-file - runTaskFromQueue task cost before running: 238 ms 
+[2025-07-22T17:44:45.957] [INFO] debug-file - Finished :entry:default@PreviewProcessResource... after 1 ms 
+[2025-07-22T17:44:45.958] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.958] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.958] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.960] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-07-22T17:44:45.973] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 7 ms .
+[2025-07-22T17:44:45.974] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.5953750610351562
+[2025-07-22T17:44:45.978] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-07-22T17:44:45.979] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:45.979] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:45.979] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:45.980] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@PreviewCompileResource
+[2025-07-22T17:44:45.981] [DEBUG] debug-file - Executing task :entry:default@PreviewCompileResource
+[2025-07-22T17:44:46.007] [DEBUG] debug-file - Incremental task entry:default@PreviewCompileResource pre-execution cost: 26 ms .
+[2025-07-22T17:44:46.007] [DEBUG] debug-file - entry : default@PreviewCompileResource cost memory -3.9816513061523438
+[2025-07-22T17:44:46.008] [INFO] debug-file - UP-TO-DATE :entry:default@PreviewCompileResource...  
+[2025-07-22T17:44:46.009] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:46.009] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:46.009] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:46.009] [DEBUG] debug-file - Executing task :entry:default@PreviewHookCompileResource
+[2025-07-22T17:44:46.009] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:46.010] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:46.010] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:46.010] [DEBUG] debug-file - entry : default@PreviewHookCompileResource cost memory 0.050872802734375
+[2025-07-22T17:44:46.010] [DEBUG] debug-file - runTaskFromQueue task cost before running: 291 ms 
+[2025-07-22T17:44:46.010] [INFO] debug-file - Finished :entry:default@PreviewHookCompileResource... after 1 ms 
+[2025-07-22T17:44:46.011] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:46.011] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:46.011] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:46.012] [DEBUG] debug-file - Executing task :entry:default@CopyPreviewProfile
+[2025-07-22T17:44:46.013] [DEBUG] debug-file - Incremental task entry:default@CopyPreviewProfile pre-execution cost: 1 ms .
+[2025-07-22T17:44:46.013] [DEBUG] debug-file - entry : default@CopyPreviewProfile cost memory 0.07723236083984375
+[2025-07-22T17:44:46.013] [INFO] debug-file - UP-TO-DATE :entry:default@CopyPreviewProfile...  
+[2025-07-22T17:44:46.014] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:46.014] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:46.014] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:46.015] [DEBUG] debug-file - Executing task :entry:default@ReplacePreviewerPage
+[2025-07-22T17:44:46.015] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:46.015] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:46.015] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:46.016] [DEBUG] debug-file - Resolved file D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json.
+[2025-07-22T17:44:46.016] [DEBUG] debug-file - Replace page to view/OnepageView
+[2025-07-22T17:44:46.017] [DEBUG] debug-file - entry : default@ReplacePreviewerPage cost memory 0.1628265380859375
+[2025-07-22T17:44:46.017] [DEBUG] debug-file - runTaskFromQueue task cost before running: 299 ms 
+[2025-07-22T17:44:46.017] [INFO] debug-file - Finished :entry:default@ReplacePreviewerPage... after 3 ms 
+[2025-07-22T17:44:46.018] [DEBUG] debug-file - Executing task :entry:buildPreviewerResource
+[2025-07-22T17:44:46.018] [DEBUG] debug-file - entry : buildPreviewerResource cost memory 0.01169586181640625
+[2025-07-22T17:44:46.018] [DEBUG] debug-file - runTaskFromQueue task cost before running: 300 ms 
+[2025-07-22T17:44:46.019] [INFO] debug-file - Finished :entry:buildPreviewerResource... after 1 ms 
+[2025-07-22T17:44:46.020] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:46.020] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:46.020] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:46.020] [DEBUG] debug-file - Executing task :entry:default@PreviewUpdateAssets
+[2025-07-22T17:44:46.022] [DEBUG] debug-file - entry:default@PreviewUpdateAssets is not up-to-date, since the output file 'D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json' has been changed.
+[2025-07-22T17:44:46.022] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets pre-execution cost: 2 ms .
+[2025-07-22T17:44:46.022] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:46.022] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:46.022] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:46.023] [DEBUG] debug-file - entry : default@PreviewUpdateAssets cost memory 0.15000152587890625
+[2025-07-22T17:44:46.023] [DEBUG] debug-file - runTaskFromQueue task cost before running: 305 ms 
+[2025-07-22T17:44:46.024] [INFO] debug-file - Finished :entry:default@PreviewUpdateAssets... after 3 ms 
+[2025-07-22T17:44:46.025] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-07-22T17:44:46.025] [DEBUG] debug-file - jsonObjWithoutParam {"libentry.so":"file:./src/main/cpp/types/libentry"} at undefined
+[2025-07-22T17:44:46.025] [DEBUG] debug-file - jsonObjWithoutParam {"license":"","devDependencies":{},"author":"","name":"entry","description":"Please describe the basic information.","main":"","version":"1.0.0","dependencies":{"libentry.so":"file:./src/main/cpp/types/libentry"},"nativeLibrary":{"libs":["./src/main/libs/arm64-v8a/libnative.so"]}} at undefined
+[2025-07-22T17:44:46.029] [DEBUG] debug-file - Executing task :entry:default@PreviewArkTS
+[2025-07-22T17:44:46.040] [DEBUG] debug-file - entry:default@PreviewArkTS is not up-to-date, since the input file 'D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile' has been changed.
+[2025-07-22T17:44:46.040] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS pre-execution cost: 5 ms .
+[2025-07-22T17:44:46.052] [DEBUG] debug-file - session manager: binding session. socketId=hSOHpq44lkXTP9OuAAAn, threadId=1@19.
+[2025-07-22T17:44:46.053] [DEBUG] debug-file - entry : default@PreviewArkTS cost memory 1.3067703247070312
+[2025-07-22T17:44:49.108] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchStart
+[2025-07-22T17:44:49.109] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchStart
+[2025-07-22T17:44:52.372] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:44:52.373] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:44:52.373] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:44:52.374] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:44:52.374] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:44:52.375] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:44:52.374] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:44:52.376] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:44:52.447] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchLog
+[2025-07-22T17:44:52.448] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchLog
+[2025-07-22T17:44:54.231] [DEBUG] debug-file - watch worker: send response to session manager. Response type: WatchResult
+[2025-07-22T17:44:54.233] [DEBUG] debug-file - session manager: watch message received from worker 1. Type: WatchResult
+[2025-07-22T17:44:54.233] [DEBUG] debug-file - Ark compile finished.
+[2025-07-22T17:44:54.236] [INFO] debug-file - Finished :entry:default@PreviewArkTS... after 8 s 206 ms 
+[2025-07-22T17:44:54.237] [DEBUG] debug-file - Executing task :entry:PreviewBuild
+[2025-07-22T17:44:54.237] [DEBUG] debug-file - entry : PreviewBuild cost memory 0.011566162109375
+[2025-07-22T17:44:54.237] [DEBUG] debug-file - runTaskFromQueue task cost before running: 8 s 519 ms 
+[2025-07-22T17:44:54.238] [INFO] debug-file - Finished :entry:PreviewBuild... after 1 ms 
+[2025-07-22T17:44:54.245] [DEBUG] debug-file - BUILD SUCCESSFUL in 8 s 526 ms 
+[2025-07-22T17:44:54.245] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-07-22T17:44:54.245] [DEBUG] debug-file - Update task entry:default@CreateModuleInfo output file:D:\hongmengCode\Login\entry\.preview\default\generated\profile\default\ModuleInfo.ts cache.
+[2025-07-22T17:44:54.245] [DEBUG] debug-file - Incremental task entry:default@CreateModuleInfo post-execution cost:1 ms .
+[2025-07-22T17:44:54.245] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-07-22T17:44:54.245] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-07-22T17:44:54.246] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader\default\pkgContextInfo.json cache.
+[2025-07-22T17:44:54.246] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-07-22T17:44:54.246] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-07-22T17:44:54.246] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-07-22T17:44:54.246] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-07-22T17:44:54.246] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreviewCompileResource is up-to-date.
+[2025-07-22T17:44:54.246] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CopyPreviewProfile is up-to-date.
+[2025-07-22T17:44:54.247] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\module.json cache.
+[2025-07-22T17:44:54.247] [DEBUG] debug-file - Update task entry:default@PreviewUpdateAssets output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile\main_pages.json cache.
+[2025-07-22T17:44:54.247] [DEBUG] debug-file - Incremental task entry:default@PreviewUpdateAssets post-execution cost:2 ms .
+[2025-07-22T17:44:54.249] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader\default cache by regenerate.
+[2025-07-22T17:44:54.249] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\ResourceTable.txt cache by regenerate.
+[2025-07-22T17:44:54.250] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\process_profile\default\module.json cache by regenerate.
+[2025-07-22T17:44:54.250] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\intermediates\res\default\resources\base\profile cache from map.
+[2025-07-22T17:44:54.250] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\src\main\ets cache by regenerate.
+[2025-07-22T17:44:54.258] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\.preview\default\generated\profile\default\BuildProfile.ets cache by regenerate.
+[2025-07-22T17:44:54.258] [DEBUG] debug-file - Update task entry:default@PreviewArkTS input file:D:\hongmengCode\Login\entry\src\main\cpp\types cache by regenerate.
+[2025-07-22T17:44:54.259] [DEBUG] debug-file - Update task entry:default@PreviewArkTS output file:D:\hongmengCode\Login\entry\.preview\default\intermediates\loader_out\default\ets cache.
+[2025-07-22T17:44:54.259] [DEBUG] debug-file - Incremental task entry:default@PreviewArkTS post-execution cost:13 ms .
+[2025-07-22T17:44:54.277] [DEBUG] debug-file - There's no busy workers and idle workers need cleanup.
+[2025-07-22T17:44:54.277] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-07-22T17:45:49.585] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:45:49.585] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-07-22T17:45:49.606] [DEBUG] debug-file - bad codeSnippet [object Object]
+[2025-07-22T17:45:49.612] [DEBUG] debug-file - watch worker: worker is ready to be terminated.
+[2025-07-22T17:45:49.612] [DEBUG] debug-file - Server currently has 1 watch-worker
